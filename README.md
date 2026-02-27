@@ -972,7 +972,7 @@ p. 101850, 2023.
 domain adaptation for wifi gesture recognition," inWCNC. IEEE, 2023,
 pp. 1--6.
 
-## Stage 4: 🐁 Model Deployment
+## Stage 4: :monkey: Model Deployment
 
 ### Transfer Learning
 \[70\] F. Wang, Y . Lv, M. Zhu, H. Ding, and J. Han, "Xrf55: A radio
