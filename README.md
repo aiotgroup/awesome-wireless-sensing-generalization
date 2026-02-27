@@ -1,7 +1,6 @@
 # Awesome Wi-Fi Sensing Generalization
 
-[Fei Wang](https://scholar.google.com/citations?user=LKPpmXQAAAAJ), [Tingting Zhang](https://scholar.google.com/citations?user=R7kxvQkAAAAJ), Wei Xi, Han Ding, Ge Wang, Di Zhang, Yuanhao Cui, Fan Liu, Jinsong Han, Jie Xu, Tony Xiao Han, 
-**A Survey on Wi-Fi Sensing Generalizability: Taxonomy, Techniques, Datasets, and Future Research Prospects**, IEEE Communications Surveys & Tutorials， 2026
+[Fei Wang](https://scholar.google.com/citations?user=LKPpmXQAAAAJ), [Tingting Zhang](https://scholar.google.com/citations?user=R7kxvQkAAAAJ), Wei Xi, Han Ding, Ge Wang, Di Zhang, Yuanhao Cui, Fan Liu, Jinsong Han, Jie Xu, Tony Xiao Han, **A Survey on Wi-Fi Sensing Generalizability: Taxonomy, Techniques, Datasets, and Future Research Prospects**, IEEE Communications Surveys & Tutorials， 2026
 
 
 ![fig3](https://github.com/user-attachments/assets/95ff3b85-0965-433c-95dc-449c87cda4e1)
