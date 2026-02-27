@@ -1,4 +1,4 @@
-# Awesome Wi-Fi Sensing Generalization Papers
+# Awesome Wireless Sensing Generalization Papers
 
 
 
