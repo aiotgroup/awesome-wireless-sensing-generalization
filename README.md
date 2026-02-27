@@ -2,6 +2,7 @@
 
 [Fei Wang](https://scholar.google.com/citations?user=LKPpmXQAAAAJ), [Tingting Zhang](https://scholar.google.com/citations?user=R7kxvQkAAAAJ), Wei Xi, Han Ding, Ge Wang, Di Zhang, Yuanhao Cui, Fan Liu, Jinsong Han, Jie Xu, Tony Xiao Han, **A Survey on Wi-Fi Sensing Generalizability: Taxonomy, Techniques, Datasets, and Future Research Prospects**, IEEE Communications Surveys & Tutorials， 2026
 
+**Sensing Dataset Platform:** https://sdp8.org/
 
 ![fig3](https://github.com/user-attachments/assets/95ff3b85-0965-433c-95dc-449c87cda4e1)
 Fig.3 Growth of research in Wi-Fi sensing generalizability: from a handful of studies between year of 2015 and 2018 to a surge of publications since 2019. We employed a linear regression to fit the growth trend. In the figure, the $R^2$ score indicates the correlation between the estimated results and the ground truth, where a value closer to 1 denotes a higher degree of model fitting. (We selected one representative paper per year based on the highest citation count, ensuring each choice employs a technical approach distinct from those featured in previous years.)
