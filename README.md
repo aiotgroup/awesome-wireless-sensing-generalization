@@ -1,12 +1,11 @@
 # Awesome Wi-Fi Sensing Generalization
 
-[Fei Wang](https://scholar.google.com/citations?user=LKPpmXQAAAAJ), Tingting Zhang, Wei Xi, Han Ding, Ge Wang, Di Zhang, Yuanhao Cui, Fan Liu, Jinsong Han, Jie Xu, Tony Xiao Han, 
+[Fei Wang](https://scholar.google.com/citations?user=LKPpmXQAAAAJ), [Tingting Zhang](https://scholar.google.com/citations?user=R7kxvQkAAAAJ), Wei Xi, Han Ding, Ge Wang, Di Zhang, Yuanhao Cui, Fan Liu, Jinsong Han, Jie Xu, Tony Xiao Han, 
 **A Survey on Wi-Fi Sensing Generalizability: Taxonomy, Techniques, Datasets, and Future Research Prospects**, IEEE Communications Surveys & Tutorials， 2026
 
 
 ![fig3](https://github.com/user-attachments/assets/95ff3b85-0965-433c-95dc-449c87cda4e1)
 Fig.3 Growth of research in Wi-Fi sensing generalizability: from a handful of studies between year of 2015 and 2018 to a surge of publications since 2019. We employed a linear regression to fit the growth trend. In the figure, the $R^2$ score indicates the correlation between the estimated results and the ground truth, where a value closer to 1 denotes a higher degree of model fitting. (We selected one representative paper per year based on the highest citation count, ensuring each choice employs a technical approach distinct from those featured in previous years.)
-
 
 
 
@@ -64,30 +63,31 @@ Fig. 17 Bubble chart of public Wi-Fi sensing datasets, where the bubble size ind
 | 31 | CrossSense[31](@ref) | 3 environments, 15 locations, 100 participants, 40 actions | 1Tx, 1Rx, 20MHz, 5GHz | 100 participants | 90% |Agreement required https://github.com/nwuzj/CrossSense/|
 | 32 | Yousef et al.[32](@ref) | 1 environments, 6 participants, 6 actions | 1Tx, 1Rx, 20MHz, 5GHz | Fall | 81%-97% |https://github.com/ermongroup/Wifi_Activity_Recognition|
 | **Gait Recognition** |
-| 33 | NTU-Fi HumanID[33](@ref) | 2 environments, 20 participants, walking | 1Tx, 1Rx, 40MHz, 5GHz | TP-Link N750 | 86.29&-98.34% ||
-| 20 | RISE[20](@ref) | 3 environments, 15 participants | 1Tx, 1Rx | multi-rf devices | 97.6% ||
-| 34 | GaitID[34](@ref) | 2 environments, 11 participants, 8 directions | 1Tx, 6Rx | 8 directions | 61%-100% ||
-| 31 | CrossSense[31](@ref) | 3 environments, 100 participants | 1Tx, 1Rx, 20MHz, 5GHz | 100 participants | 80% ||
+| 33 | NTU-Fi HumanID[33](@ref) | 2 environments, 20 participants, walking | 1Tx, 1Rx, 40MHz, 5GHz | TP-Link N750 | 86.29&-98.34% |https://github.com/xyanchen/WiFi-CSI-Sensing-Benchmark|
+| 20 | RISE[20](@ref) | 3 environments, 15 participants | 1Tx, 1Rx | multi-rf devices | 97.6% |https://github.com/jiaojiao1234/RISE/|
+| 34 | GaitID[34](@ref) | 2 environments, 11 participants, 8 directions | 1Tx, 6Rx | 8 directions | 61%-100% |http://www.sdp8.net/Dataset?id=87a65da2-18cb-4b8f-a1ec-c9696890172b|
+| 31 | CrossSense[31](@ref) | 3 environments, 100 participants | 1Tx, 1Rx, 20MHz, 5GHz | 100 participants | 80% |Agreement required https://github.com/nwuzj/CrossSense|
 | **Pose Estimation** |
-| 35 | XRFv2[35](@ref) | 3 environments, 16 participants, 30 actions | 1Tx, 3Rx, 20MHz, 5GHz | Multimodal, continuous actions | not reported ||
-| 36 | Person-in-WiFi 3D[36](@ref) | 3 environments, 7 participants, 8actions | 1Tx, 3Rx, 20MHz, 5GHz | Multi-person | 107.2mm MPJPE ||
-| 1 | XRF55[1](@ref) | 4 environments, 39 participants, 55 actions | 1Tx, 3Rx, 20MHz, 5GHz | Multimodal, 55 actions | not reported ||
-| 12 | MM-Fi[12](@ref) | 4 environments, 40 participants, 27 actions | 20MHz, 5GHz | Multimodal | 197.1mm MPJPE ||
+| 35 | XRFv2[35](@ref) | 3 environments, 16 participants, 30 actions | 1Tx, 3Rx, 20MHz, 5GHz | Multimodal, continuous actions | not reported |https://github.com/aiotgroup/XRFV2|
+| 36 | Person-in-WiFi 3D[36](@ref) | 3 environments, 7 participants, 8actions | 1Tx, 3Rx, 20MHz, 5GHz | Multi-person | 107.2mm MPJPE |https://aiotgroup.github.io/Person-in-WiFi-3D/|
+| 1 | XRF55[1](@ref) | 4 environments, 39 participants, 55 actions | 1Tx, 3Rx, 20MHz, 5GHz | Multimodal, 55 actions | not reported |https://aiotgroup.github.io/XRF55/|
+| 12 | MM-Fi[12](@ref) | 4 environments, 40 participants, 27 actions | 20MHz, 5GHz | Multimodal | 197.1mm MPJPE |https://ntu-aiot-lab.github.io/mm-fi|
 | **Indoor Localization** |
-| 37 | MetaLoc[37](@ref) | 2 environments, 180 locations | 3Tx, 1Rx, 20MHz, 5GHz | RSSI and CSI | 2.07±1.11m error ||
-| 38 | Chen and Chang[38](@ref) | 2 environments, 16 locations | 2Tx, 2Rx | CSI fingerprints | 49.47%-90.44% ||
-| 26 | ARIL[26](@ref) | 1 environments, 16 locations, 1 participants, 6 actions | 1Tx, 1Rx, 20MHz, 2.4GHz | USRP data, clean phase | 95.68% ||
+| 37 | MetaLoc[37](@ref) | 2 environments, 180 locations | 3Tx, 1Rx, 20MHz, 5GHz | RSSI and CSI | 2.07±1.11m error |https://github.com/StatFusion/MetaLoc|
+| 38 | Chen and Chang[38](@ref) | 2 environments, 16 locations | 2Tx, 2Rx | CSI fingerprints | 49.47%-90.44% |https://github.com/BingJiaChen/few-shot-indoor-localization|
+| 26 | ARIL[26](@ref) | 1 environments, 16 locations, 1 participants, 6 actions | 1Tx, 1Rx, 20MHz, 2.4GHz | USRP data, clean phase | 95.68% |https://github.com/geekfeiw/ARIL|
 | **Crowd Counting** |
-| 39 | SDP[39](@ref) | 4 scenarios | multi-APs, 80/160MHz, 5GHz | 0-2 people | not reported ||
-| 40 | DASECount[40](@ref) | 2 environments, 2 scenarios (NLOS/LOS), 3 motions | 1Tx, 1Rx, 40MHz, 2.4GHz | 0-8 people | 93.29%-99.17% ||
-| 10 | Meneghello et al.[10](@ref) | 1 environments, 10 participants | 1Tx, 1Rx, 80MHz, 5.21GHz | 1-10 people | not reported ||
+| 39 | SDP[39](@ref) | 4 scenarios | multi-APs, 80/160MHz, 5GHz | 0-2 people | not reported |https://sdp8.org/Dataset?id=277beeba-afdc-4bb1-8b47-88fa366fb27d|
+| 40 | DASECount[40](@ref) | 2 environments, 2 scenarios (NLOS/LOS), 3 motions | 1Tx, 1Rx, 40MHz, 2.4GHz | 0-8 people | 93.29%-99.17% |http://bisuzhi.cn/Sensedata.html|
+| 10 | Meneghello et al.[10](@ref) | 1 environments, 10 participants | 1Tx, 1Rx, 80MHz, 5.21GHz | 1-10 people | not reported |https://paperswithcode.com/paper/a-csi-dataset-for-wireless-human-sensing-on|
 | **Temporal Action Localization, Action Summarization** |
-| 35 | XRFv2[35](@ref) | 3 environments, 16 participants, 30 actions | 1Tx, 3Rx, 20MHz, 5GHz | Multimodal, continuous actions | 78.74 mAP ||
-| 41 | WiFiTAD[41](@ref) | 1 environment, 3 participants, 7 actions | 1Tx, 1Rx, 5GHz | Continuous actions | 74.5 mAP ||
+| 35 | XRFv2[35](@ref) | 3 environments, 16 participants, 30 actions | 1Tx, 3Rx, 20MHz, 5GHz | Multimodal, continuous actions | 78.74 mAP |https://github.com/aiotgroup/XRFV2|
+| 41 | WiFiTAD[41](@ref) | 1 environment, 3 participants, 7 actions | 1Tx, 1Rx, 5GHz | Continuous actions | 74.5 mAP |https://github.com/AVC2-UESTC/WiFiTAD|
 | **Multiple Sub-Datasets** |
-| 42 | CSI-Bench[42](@ref) | 26 environments, 35 participants | 16 device configuration | In-the-wild data, 461 hours | 94.88% fall detection, etc. ||
-| 10 | Meneghello et al.[10](@ref) | 7 environments, 13 participants | 1Tx, 1Rx, 80MHz, 5.21GHz | Three tasks, 80MHz | not reported ||
-| 43 | CSI-Net[43](@ref) | 1 environments, 5 positions, 30 participants | 1Tx, 1Rx, 20MHz, 5GHz | Four tasks, Biometrics | 96.67% fall detection, etc. ||
+| 42 | CSI-Bench[42](@ref) | 26 environments, 35 participants | 16 device configuration | In-the-wild data, 461 hours | 94.88% fall detection, etc. |https://ai-iot-sensing.github.io/projects/project.html|
+| 10 | Meneghello et al.[10](@ref) | 7 environments, 13 participants | 1Tx, 1Rx, 80MHz, 5.21GHz | Three tasks, 80MHz | not reported |https://paperswithcode.com/paper/a-csi-dataset-for-wireless-human-sensing-on|
+| 43 | CSI-Net[43](@ref) | 1 environments, 5 positions, 30 participants | 1Tx, 1Rx, 20MHz, 5GHz | Four tasks, Biometrics | 96.67% fall detection, etc. |https://github.com/geekfeiw/CSI-Net|
+
 
 [1](@ref): [wang2024xrf55]
 [2](@ref): [lan2024bullydetect]
