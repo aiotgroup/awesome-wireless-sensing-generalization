@@ -1,4 +1,4 @@
-# Awesome Wireless Sensing Generalization Papers
+# Awesome Wireless Sensing Generalization
 
 
 
