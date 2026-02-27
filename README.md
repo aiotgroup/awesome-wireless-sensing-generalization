@@ -1,4 +1,4 @@
-# Awesome Wi-Fi Sensing Generalization
+# 🏇 Awesome Wi-Fi Sensing Generalization
 
 [Fei Wang](https://scholar.google.com/citations?user=LKPpmXQAAAAJ), [Tingting Zhang](https://scholar.google.com/citations?user=R7kxvQkAAAAJ), Wei Xi, Han Ding, Ge Wang, Di Zhang, Yuanhao Cui, Fan Liu, Jinsong Han, Jie Xu, Tony Xiao Han, **A Survey on Wi-Fi Sensing Generalizability: Taxonomy, Techniques, Datasets, and Future Research Prospects**, IEEE Communications Surveys & Tutorials， 2026
 
@@ -8,7 +8,7 @@ Fig.3 Growth of research in Wi-Fi sensing generalizability: from a handful of st
 
 
 
-## Tools and Datasets
+## :turtle: Tools
 
 | Name | max. MIMO | 802.11 support | max. # subcarriers | max. bandwidth | Wi-Fi | Download Link |
 |---|---|---|---|---|---|---|
@@ -20,6 +20,8 @@ Fig.3 Growth of research in Wi-Fi sensing generalizability: from a handful of st
 | PicoScenes | 4×4 | a/g/n/ac/ax/be | 1024 | 320 MHz | CSI | https://ps.zpj.io/ |
 | BFM-Tool | 4×4 | ac/ax | 512 | 160 MHz | BFI | https://github.com/Enze-Yi/BFM-tool |
 
+
+## :dog: Datasets 
 
 <img width="1781" height="746" alt="fig17" src="https://github.com/user-attachments/assets/aeb2a618-6cc8-4b60-a928-93cc69c80f66" />
 Fig. 17 Bubble chart of public Wi-Fi sensing datasets, where the bubble size indicates the number of samples and the vertical axis represents the number of classes. For visual clarity, datasets with extreme values, such as **SignFi** (296 classes) and **CSI-Bench** (over 1,000,000 samples), are excluded from the plot. Besides, datasets like **WiFiTAD**, **MM-Fi**, and **XRFv2**, which collect continuous sequences over time without clear per-sample annotations, are also not included due to the ambiguity in estimating their sample counts.
@@ -135,7 +137,7 @@ Fig. 17 Bubble chart of public Wi-Fi sensing datasets, where the bubble size ind
 
 
 
-## Stage 1: Experimental Setup
+## Stage 1: 🐘 Experimental Setup 
 
 ### Distributed Antennas
 
@@ -191,7 +193,7 @@ for versatile wireless sensing,"NeurIPS, vol. 36, 2024.
 bench: A large-scale in-the-wild dataset for multi-task wifi sensing,"
 arXiv preprint arXiv:2505.21866, 2025.
 
-## Stage 2: Signal Preprocessing
+## Stage 2: :snail: Signal Preprocessing
 
 ### Signal Analysis Methods
 \[74\] Y . Lu, S. Lv, and X. Wang, "Towards location independent gesture
@@ -406,7 +408,7 @@ wi-fi,"IEEE Sensors Journal, vol. 23, no. 14, pp. 16 264--16 275, 2023.
 vision-based approach,"arXiv preprint arXiv:2210.00127, 2022.
 
 
-## Stage 3: Feature Learning
+## Stage 3: 🦊 Feature Learning
 
 ### Domain Alignment
 
@@ -968,7 +970,7 @@ p. 101850, 2023.
 domain adaptation for wifi gesture recognition," inWCNC. IEEE, 2023,
 pp. 1--6.
 
-## Stage 4: Model Deployment
+## Stage 4: 🐁 Model Deployment
 
 ### Transfer Learning
 \[70\] F. Wang, Y . Lv, M. Zhu, H. Ding, and J. Han, "Xrf55: A radio
