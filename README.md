@@ -136,7 +136,7 @@ Fig. 17 Bubble chart of public Wi-Fi sensing datasets, where the bubble size ind
 
 
 
-## Experimental Setup
+## Stage 1: Experimental Setup
 
 ### Distributed Antennas
 
@@ -192,7 +192,7 @@ for versatile wireless sensing,"NeurIPS, vol. 36, 2024.
 bench: A large-scale in-the-wild dataset for multi-task wifi sensing,"
 arXiv preprint arXiv:2505.21866, 2025.
 
-##  Signal Preprocessing
+## Stage 2: Signal Preprocessing
 
 ### Signal Analysis Methods
 \[74\] Y . Lu, S. Lv, and X. Wang, "Towards location independent gesture
@@ -407,7 +407,7 @@ wi-fi,"IEEE Sensors Journal, vol. 23, no. 14, pp. 16 264--16 275, 2023.
 vision-based approach,"arXiv preprint arXiv:2210.00127, 2022.
 
 
-## Feature Learning
+## Stage 3: Feature Learning
 
 ### Domain Alignment
 
@@ -969,7 +969,7 @@ p. 101850, 2023.
 domain adaptation for wifi gesture recognition," inWCNC. IEEE, 2023,
 pp. 1--6.
 
-## Model Deployment
+## Stage 4: Model Deployment
 
 ### Transfer Learning
 \[70\] F. Wang, Y . Lv, M. Zhu, H. Ding, and J. Han, "Xrf55: A radio
