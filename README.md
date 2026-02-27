@@ -28,66 +28,66 @@ Fig. 17 Bubble chart of public Wi-Fi sensing datasets, where the bubble size ind
 
 
 
-| ID | Dataset | Main Domain Information | Device Setting | Highlight | Main Results |
-|---|---|---|---|---|---|
+| ID | Dataset | Main Domain Information | Device Setting | Highlight | Main Results | Download Link |
+|---|---|---|---|---|---|---|
 | **Action Recognition** |
-| 1 | XRF55[1](@ref) | 4 environments, 39 participants, 55 actions | 1Tx, 3Rx, 20MHz, 5GHz | Multimodal, 55 actions | 87.26% |
-| 2 | BullyDetect[2](@ref) | 8 environments, 20 paired participants, 7 actions | 1Tx, 1Rx, 20MHz, 5GHz | Bullying actions | 90.4% |
-| 3 | WiSDA[3](@ref) | 1 environments, 3 participants, 6 actions | 1Tx, 1Rx, 20MHz | Widar3.0-like | 99.5% |
-| 4 | WiNDR[4](@ref) | 1 environments, 3 participants, 5 actions, 24 orientation | 1Tx, 1Rx, 20MHz, 5GHz | Full 360° coverage | 78%-92% |
-| 5 | WiMANS[5](@ref) | 3 environments, 6 participants, 9 actions | 1Tx, 1Rx, 20MHz, 2.4/5GHz | Multi-person | 89.1%-96.6% |
-| 6 | WiGuesture[6](@ref) | 1 environments, 8 participants, 6 actions | 1Tx, 1Rx, 100Hz, 2.4GHz | ESP32S3 | 92.57% |
-| 7 | RoGER[7](@ref) | 2 environments, 4 participants, 6 actions, 4 orientation | 1Tx, 2Rx, 20MHz, 2.437GHz | AR9580 | 94.84%-99.71% |
-| 8 | ImgFi[8](@ref) | 1 environments, 5 participants, 6 actions | 1Tx, 1Rx, 20MHz | Converted to images | 99.8% |
-| 9 | ResMon[9](@ref) | 2 environments, 3 areas, 6 participants, 4 actions | 1Tx, 1Rx, 20/40MHz, 2.4/5GHz | Cross-band test | 83.80%-89.67% |
-| 10 | Meneghello et al.[10](@ref) | 6 environments, 4 participants, 7 actions | 1Tx, 1Rx, 80MHz, 5.21GHz | 80MHz | not reported |
-| 11 | Demrozi et al.[11](@ref) | 2 environments, 6 participants, 6 actions | 2Tx, 2Rx, 2.4GHz | Nexmon firmware | 99.3% |
-| 12 | MM-Fi[12](@ref) | 4 environments, 40 participants, 27actions | 1TX, 1RX, 20MHz, 5GHz | Multimodal | not reported |
-| 13 | NTU-Fi HAR[13](@ref) | 1 environments, 20 participants, 6 actions | 1Tx, 1Rx, 40MHz, 5GHz | TP-Link N750 | 98.6% |
-| 14 | FallDar[14](@ref) | 4 environments, 6 locations, 6 participants, fall & normal | 1Tx, 1Rx, 1000Hz, 5GHz | 6 months | 5.7% FAR |
-| 15 | ReWis[15](@ref) | 3 environments, 2 participants, 4 actions | 1Tx, 3Rx, 20/80MHz, 5GHz | 80MHz | 78.25%-99.82% |
-| 16 | OPERAnet[16](@ref) | 2 environments, 6 participants, 6 actions | 1Tx, 2Rx, 5GHz | Multimodal | 71%-100% |
-| 17 | SHARP[17](@ref) | 3 environments, 4 locations, 3 participants, 7 actions | 1Tx, 1Rx, 80MB, 5GHz | 80MHz | 95.99%-99.79% |
-| 18 | CSI-HAR-Dataset[18](@ref) | 1 environments, 3 participants, 7 actions | 1Tx, 1Rx, 20MHz, 5GHz | 802.11ac | 95.5% |
-| 19 | CSIDA[19](@ref) | 2 environments, 5 locations, 5 participants, 6 actions | 1Tx, 1Rx, 40MHz, 5GHz | 114 subcarriers | 90.10%±1.03% |
-| 20 | RISE[20](@ref) | 2 environments, 6 participants, 6 actions | 1Tx, 1Rx | multi-rf devices | 93.9%-100% |
-| 21 | HTHI[21](@ref) | 1 environment, 40 paired, 12 actions | 2Tx, 3Rx, 20MHz, 2.4GHz | Human-human actions | not reported |
-| 22 | DeepSeg[22](@ref) | 1 environment, 5 participants, 10 actions | 1Tx, 3Rx | fine-/coarse-grained actions | 94% |
-| 23 | RF-Net[23](@ref) | 6 environments, 11 participants, 6 actions | 2 Tx-Rx pairs, 20MHz | 120 environment | ≈ 80% |
-| 24 | Baha’A et al.[24](@ref) | 3 environments, 30 participants, 12 actions | 1Tx, 3Rx, 20MHz, 2.4GHz | LOS/NLOS | not reported |
-| 25 | Widar 3.0[25](@ref) | 3 environments, 5 locations, 5 orientations, 16 participants, 16 actions | 1Tx, 6Rx, 20MHz, 5.825GHz | Rich domains | 92.7%-92.9% |
-| 26 | ARIL[26](@ref) | 16 locations, 1 participants, 6 actions | 1Tx, 1Rx, 20MHz, 2.4GHz | USRP data, clean phase | 89.57% |
-| 27 | WiAR[27](@ref) | 3 environments, 10 participants, 16 actions | 1Tx, 1Rx, 20MHz, 5GHz | RSSI and CSI | 90.62%-96.25% |
-| 28 | SAR[28](@ref) | 1 environment, 9 participants, 6actions | 2-3Tx, 3Rx, 20MHz, 2.4GHz | 6 days | 60%-100% |
-| 29 | FallDeFi[29](@ref) | 5 environments, 3 participants, 9 actions | 2Tx, 2Rx, 20MHz, 5.2GHz | Fall detection | 80.10%-88.90% |
-| 30 | SignFi[30](@ref) | 2 environments, 5 participants, 276 gestures | 3Tx, 1Rx, 20MHz, 5GHz | 276 ASL Gestures | 94.81%-98.91% |
-| 31 | CrossSense[31](@ref) | 3 environments, 15 locations, 100 participants, 40 actions | 1Tx, 1Rx, 20MHz, 5GHz | 100 participants | 90% |
-| 32 | Yousef et al.[32](@ref) | 1 environments, 6 participants, 6 actions | 1Tx, 1Rx, 20MHz, 5GHz | Fall | 81%-97% |
+| 1 | XRF55[1](@ref) | 4 environments, 39 participants, 55 actions | 1Tx, 3Rx, 20MHz, 5GHz | Multimodal, 55 actions | 87.26% |https://aiotgroup.github.io/XRF55/ |
+| 2 | BullyDetect[2](@ref) | 8 environments, 20 paired participants, 7 actions | 1Tx, 1Rx, 20MHz, 5GHz | Bullying actions | 90.4% |https://github.com/aiotgroup/WiFi-BullyDetect|
+| 3 | WiSDA[3](@ref) | 1 environments, 3 participants, 6 actions | 1Tx, 1Rx, 20MHz | Widar3.0-like | 99.5% |https://www.researchgate.net/publication/385918549_WiSDA_Subdomain_Adaptation_Human_Activity_Recognition_Method_Using_Wi-Fi_Signals|
+| 4 | WiNDR[4](@ref) | 1 environments, 3 participants, 5 actions, 24 orientation | 1Tx, 1Rx, 20MHz, 5GHz | Full 360° coverage | 78%-92% |https://gitlab.com/yuxiqin/direction-independent|
+| 5 | WiMANS[5](@ref) | 3 environments, 6 participants, 9 actions | 1Tx, 1Rx, 20MHz, 2.4/5GHz | Multi-person | 89.1%-96.6% |https://github.com/huangshk/WiMAN|
+| 6 | WiGuesture[6](@ref) | 1 environments, 8 participants, 6 actions | 1Tx, 1Rx, 100Hz, 2.4GHz | ESP32S3 | 92.57% |https://github.com/RS2002/CSI-BERT|
+| 7 | RoGER[7](@ref) | 2 environments, 4 participants, 6 actions, 4 orientation | 1Tx, 2Rx, 20MHz, 2.437GHz | AR9580 | 94.84%-99.71% |http://bisuzhi.cn/Sensedata.html|
+| 8 | ImgFi[8](@ref) | 1 environments, 5 participants, 6 actions | 1Tx, 1Rx, 20MHz | Converted to images | 99.8% |https://ieeexplore.ieee.org/document/10190332|
+| 9 | ResMon[9](@ref) | 2 environments, 3 areas, 6 participants, 4 actions | 1Tx, 1Rx, 20/40MHz, 2.4/5GHz | Cross-band test | 83.80%-89.67% |http://bisuzhi.cn/Sensedata.html|
+| 10 | Meneghello et al.[10](@ref) | 6 environments, 4 participants, 7 actions | 1Tx, 1Rx, 80MHz, 5.21GHz | 80MHz | not reported |https://paperswithcode.com/paper/a-csi-dataset-for-wireless-human-sensing-on|
+| 11 | Demrozi et al.[11](@ref) | 2 environments, 6 participants, 6 actions | 2Tx, 2Rx, 2.4GHz | Nexmon firmware | 99.3% |https://www.techrxiv.org/doi/full/10.36227/techrxiv.22284421.v1|
+| 12 | MM-Fi[12](@ref) | 4 environments, 40 participants, 27actions | 1TX, 1RX, 20MHz, 5GHz | Multimodal | not reported |https://ntu-aiot-lab.github.io/mm-fi|
+| 13 | NTU-Fi HAR[13](@ref) | 1 environments, 20 participants, 6 actions | 1Tx, 1Rx, 40MHz, 5GHz | TP-Link N750 | 98.6% |https://github.com/xyanchen/WiFi-CSI-Sensing-Benchmark|
+| 14 | FallDar[14](@ref) | 4 environments, 6 locations, 6 participants, fall & normal | 1Tx, 1Rx, 1000Hz, 5GHz | 6 months | 5.7% FAR |http://www.sdp8.net/Dataset?id=dfe4621e-4774-4ef4-b064-e4a082c12335|
+| 15 | ReWis[15](@ref) | 3 environments, 2 participants, 4 actions | 1Tx, 3Rx, 20/80MHz, 5GHz | 80MHz | 78.25%-99.82% |https://github.com/niloobah/ReWiS|
+| 16 | OPERAnet[16](@ref) | 2 environments, 6 participants, 6 actions | 1Tx, 2Rx, 5GHz | Multimodal | 71%-100% |https://springernature.figshare.com/collections/A_Comprehensive_Multimodal_Activity_Recognition_Dataset_Acquired_from_Radio_Frequency_and_Vision-Based_Sensors/5551209/1|
+| 17 | SHARP[17](@ref) | 3 environments, 4 locations, 3 participants, 7 actions | 1Tx, 1Rx, 80MB, 5GHz | 80MHz | 95.99%-99.79% |https://github.com/francescamen/SHARP|
+| 18 | CSI-HAR-Dataset[18](@ref) | 1 environments, 3 participants, 7 actions | 1Tx, 1Rx, 20MHz, 5GHz | 802.11ac | 95.5% |https://github.com/parisafm/CSI-HAR-Dataset|
+| 19 | CSIDA[19](@ref) | 2 environments, 5 locations, 5 participants, 6 actions | 1Tx, 1Rx, 40MHz, 5GHz | 114 subcarriers | 90.10%±1.03% |https://github.com/Zhang-xie/WiGr|
+| 20 | RISE[20](@ref) | 2 environments, 6 participants, 6 actions | 1Tx, 1Rx | multi-rf devices | 93.9%-100% |https://github.com/jiaojiao1234/RISE|
+| 21 | HTHI[21](@ref) | 1 environment, 40 paired, 12 actions | 2Tx, 3Rx, 20MHz, 2.4GHz | Human-human actions | not reported |https://data.mendeley.com/datasets/3dhn4xnjxw/1|
+| 22 | DeepSeg[22](@ref) | 1 environment, 5 participants, 10 actions | 1Tx, 3Rx | fine-/coarse-grained actions | 94% |https://github.com/ChunjingXiao/DeepSeg|
+| 23 | RF-Net[23](@ref) | 6 environments, 11 participants, 6 actions | 2 Tx-Rx pairs, 20MHz | 120 environment | ≈ 80% |https://github.com/di0002ya/RFNet|
+| 24 | Baha’A et al.[24](@ref) | 3 environments, 30 participants, 12 actions | 1Tx, 3Rx, 20MHz, 2.4GHz | LOS/NLOS | not reported |http://www.sdp8.net/Dataset?id=dfe4621e-4774-4ef4-b064-e4a082c12335|
+| 25 | Widar 3.0[25](@ref) | 3 environments, 5 locations, 5 orientations, 16 participants, 16 actions | 1Tx, 6Rx, 20MHz, 5.825GHz | Rich domains | 92.7%-92.9% |https://tns.thss.tsinghua.edu.cn/widar3.0/|
+| 26 | ARIL[26](@ref) | 16 locations, 1 participants, 6 actions | 1Tx, 1Rx, 20MHz, 2.4GHz | USRP data, clean phase | 89.57% |https://github.com/geekfeiw/ARIL|
+| 27 | WiAR[27](@ref) | 3 environments, 10 participants, 16 actions | 1Tx, 1Rx, 20MHz, 5GHz | RSSI and CSI | 90.62%-96.25% |https://github.com/linteresa/WiAR|
+| 28 | SAR[28](@ref) | 1 environment, 9 participants, 6actions | 2-3Tx, 3Rx, 20MHz, 2.4GHz | 6 days | 60%-100% |https://data.4tu.nl/articles/_/12692816/1|
+| 29 | FallDeFi[29](@ref) | 5 environments, 3 participants, 9 actions | 2Tx, 2Rx, 20MHz, 5.2GHz | Fall detection | 80.10%-88.90% |https://github.com/dmsp123/FallDeFi|
+| 30 | SignFi[30](@ref) | 2 environments, 5 participants, 276 gestures | 3Tx, 1Rx, 20MHz, 5GHz | 276 ASL Gestures | 94.81%-98.91% |https://github.com/yongsen/SignFi|
+| 31 | CrossSense[31](@ref) | 3 environments, 15 locations, 100 participants, 40 actions | 1Tx, 1Rx, 20MHz, 5GHz | 100 participants | 90% |Agreement required https://github.com/nwuzj/CrossSense/|
+| 32 | Yousef et al.[32](@ref) | 1 environments, 6 participants, 6 actions | 1Tx, 1Rx, 20MHz, 5GHz | Fall | 81%-97% |https://github.com/ermongroup/Wifi_Activity_Recognition|
 | **Gait Recognition** |
-| 33 | NTU-Fi HumanID[33](@ref) | 2 environments, 20 participants, walking | 1Tx, 1Rx, 40MHz, 5GHz | TP-Link N750 | 86.29&-98.34% |
-| 20 | RISE[20](@ref) | 3 environments, 15 participants | 1Tx, 1Rx | multi-rf devices | 97.6% |
-| 34 | GaitID[34](@ref) | 2 environments, 11 participants, 8 directions | 1Tx, 6Rx | 8 directions | 61%-100% |
-| 31 | CrossSense[31](@ref) | 3 environments, 100 participants | 1Tx, 1Rx, 20MHz, 5GHz | 100 participants | 80% |
+| 33 | NTU-Fi HumanID[33](@ref) | 2 environments, 20 participants, walking | 1Tx, 1Rx, 40MHz, 5GHz | TP-Link N750 | 86.29&-98.34% ||
+| 20 | RISE[20](@ref) | 3 environments, 15 participants | 1Tx, 1Rx | multi-rf devices | 97.6% ||
+| 34 | GaitID[34](@ref) | 2 environments, 11 participants, 8 directions | 1Tx, 6Rx | 8 directions | 61%-100% ||
+| 31 | CrossSense[31](@ref) | 3 environments, 100 participants | 1Tx, 1Rx, 20MHz, 5GHz | 100 participants | 80% ||
 | **Pose Estimation** |
-| 35 | XRFv2[35](@ref) | 3 environments, 16 participants, 30 actions | 1Tx, 3Rx, 20MHz, 5GHz | Multimodal, continuous actions | not reported |
-| 36 | Person-in-WiFi 3D[36](@ref) | 3 environments, 7 participants, 8actions | 1Tx, 3Rx, 20MHz, 5GHz | Multi-person | 107.2mm MPJPE |
-| 1 | XRF55[1](@ref) | 4 environments, 39 participants, 55 actions | 1Tx, 3Rx, 20MHz, 5GHz | Multimodal, 55 actions | not reported |
-| 12 | MM-Fi[12](@ref) | 4 environments, 40 participants, 27 actions | 20MHz, 5GHz | Multimodal | 197.1mm MPJPE |
+| 35 | XRFv2[35](@ref) | 3 environments, 16 participants, 30 actions | 1Tx, 3Rx, 20MHz, 5GHz | Multimodal, continuous actions | not reported ||
+| 36 | Person-in-WiFi 3D[36](@ref) | 3 environments, 7 participants, 8actions | 1Tx, 3Rx, 20MHz, 5GHz | Multi-person | 107.2mm MPJPE ||
+| 1 | XRF55[1](@ref) | 4 environments, 39 participants, 55 actions | 1Tx, 3Rx, 20MHz, 5GHz | Multimodal, 55 actions | not reported ||
+| 12 | MM-Fi[12](@ref) | 4 environments, 40 participants, 27 actions | 20MHz, 5GHz | Multimodal | 197.1mm MPJPE ||
 | **Indoor Localization** |
-| 37 | MetaLoc[37](@ref) | 2 environments, 180 locations | 3Tx, 1Rx, 20MHz, 5GHz | RSSI and CSI | 2.07±1.11m error |
-| 38 | Chen and Chang[38](@ref) | 2 environments, 16 locations | 2Tx, 2Rx | CSI fingerprints | 49.47%-90.44% |
-| 26 | ARIL[26](@ref) | 1 environments, 16 locations, 1 participants, 6 actions | 1Tx, 1Rx, 20MHz, 2.4GHz | USRP data, clean phase | 95.68% |
+| 37 | MetaLoc[37](@ref) | 2 environments, 180 locations | 3Tx, 1Rx, 20MHz, 5GHz | RSSI and CSI | 2.07±1.11m error ||
+| 38 | Chen and Chang[38](@ref) | 2 environments, 16 locations | 2Tx, 2Rx | CSI fingerprints | 49.47%-90.44% ||
+| 26 | ARIL[26](@ref) | 1 environments, 16 locations, 1 participants, 6 actions | 1Tx, 1Rx, 20MHz, 2.4GHz | USRP data, clean phase | 95.68% ||
 | **Crowd Counting** |
-| 39 | SDP[39](@ref) | 4 scenarios | multi-APs, 80/160MHz, 5GHz | 0-2 people | not reported |
-| 40 | DASECount[40](@ref) | 2 environments, 2 scenarios (NLOS/LOS), 3 motions | 1Tx, 1Rx, 40MHz, 2.4GHz | 0-8 people | 93.29%-99.17% |
-| 10 | Meneghello et al.[10](@ref) | 1 environments, 10 participants | 1Tx, 1Rx, 80MHz, 5.21GHz | 1-10 people | not reported |
+| 39 | SDP[39](@ref) | 4 scenarios | multi-APs, 80/160MHz, 5GHz | 0-2 people | not reported ||
+| 40 | DASECount[40](@ref) | 2 environments, 2 scenarios (NLOS/LOS), 3 motions | 1Tx, 1Rx, 40MHz, 2.4GHz | 0-8 people | 93.29%-99.17% ||
+| 10 | Meneghello et al.[10](@ref) | 1 environments, 10 participants | 1Tx, 1Rx, 80MHz, 5.21GHz | 1-10 people | not reported ||
 | **Temporal Action Localization, Action Summarization** |
-| 35 | XRFv2[35](@ref) | 3 environments, 16 participants, 30 actions | 1Tx, 3Rx, 20MHz, 5GHz | Multimodal, continuous actions | 78.74 mAP |
-| 41 | WiFiTAD[41](@ref) | 1 environment, 3 participants, 7 actions | 1Tx, 1Rx, 5GHz | Continuous actions | 74.5 mAP |
+| 35 | XRFv2[35](@ref) | 3 environments, 16 participants, 30 actions | 1Tx, 3Rx, 20MHz, 5GHz | Multimodal, continuous actions | 78.74 mAP ||
+| 41 | WiFiTAD[41](@ref) | 1 environment, 3 participants, 7 actions | 1Tx, 1Rx, 5GHz | Continuous actions | 74.5 mAP ||
 | **Multiple Sub-Datasets** |
-| 42 | CSI-Bench[42](@ref) | 26 environments, 35 participants | 16 device configuration | In-the-wild data, 461 hours | 94.88% fall detection, etc. |
-| 10 | Meneghello et al.[10](@ref) | 7 environments, 13 participants | 1Tx, 1Rx, 80MHz, 5.21GHz | Three tasks, 80MHz | not reported |
-| 43 | CSI-Net[43](@ref) | 1 environments, 5 positions, 30 participants | 1Tx, 1Rx, 20MHz, 5GHz | Four tasks, Biometrics | 96.67% fall detection, etc. |
+| 42 | CSI-Bench[42](@ref) | 26 environments, 35 participants | 16 device configuration | In-the-wild data, 461 hours | 94.88% fall detection, etc. ||
+| 10 | Meneghello et al.[10](@ref) | 7 environments, 13 participants | 1Tx, 1Rx, 80MHz, 5.21GHz | Three tasks, 80MHz | not reported ||
+| 43 | CSI-Net[43](@ref) | 1 environments, 5 positions, 30 participants | 1Tx, 1Rx, 20MHz, 5GHz | Four tasks, Biometrics | 96.67% fall detection, etc. ||
 
 [1](@ref): [wang2024xrf55]
 [2](@ref): [lan2024bullydetect]
