@@ -4,9 +4,27 @@
 
 **Sensing Dataset Platform:** https://sdp8.org/
 
+```
+@article{wang2026wifi,
+  author    = {Fei Wang and Tingting Zhang and Wei Xi and Han Ding and Ge Wang and Di Zhang and Yuanhao Cui and Fan Liu and Jinsong Han and Jie Xu and Tony Xiao Han},
+  title     = {A Survey on Wi-Fi Sensing Generalizability: Taxonomy, Techniques, Datasets, and Future Research Prospects},
+  journal   = {IEEE Communications Surveys \& Tutorials},
+  year      = {2026}
+}
+```
+
+> ### **Highlight**
+>
+> While this survey focuses on Wi-Fi sensing, it is worth noting that many of the taxonomy and generalization challenges discussed herein are also applicable to millimeter-wave radar–based human sensing [Zhang et al., 2023](#), which has gained increasing attention with the availability of commodity radars. Although mmWave radar relies on different signal representations, such as range–Doppler or range–angle maps rather than Wi-Fi CSI, it faces similar fundamental challenges related to device heterogeneity, human body diversity, and environment diversity.  
+>
+> For example, variations in radar hardware configurations and antenna arrays resemble device heterogeneity in Wi-Fi sensing; differences in human body shape, motion patterns, and orientation affect radar reflections in a manner analogous to CSI-based sensing; and environmental factors such as clutter, multipath, and deployment geometry similarly impact sensing robustness.  
+>
+> As a result, learning paradigms and deployment strategies aimed at improving generalization, such as multi-view sensing, large-scale in-the-wild datasets, domain adaptation, and continual learning, can be conceptually extended to millimeter-wave radar sensing, despite differences in signal modality.
+
+
+
 ![fig3](https://github.com/user-attachments/assets/95ff3b85-0965-433c-95dc-449c87cda4e1)
 Fig.3: Growth of research in Wi-Fi sensing generalizability: from a handful of studies between year of 2015 and 2018 to a surge of publications since 2019. We employed a linear regression to fit the growth trend. In the figure, the $R^2$ score indicates the correlation between the estimated results and the ground truth, where a value closer to 1 denotes a higher degree of model fitting. (We selected one representative paper per year based on the highest citation count, ensuring each choice employs a technical approach distinct from those featured in previous years.)
-
 
 
 ## :turtle: Tools
@@ -32,9 +50,9 @@ Fig. 17: Bubble chart of public Wi-Fi sensing datasets, where the bubble size in
 | ID | Dataset | Main Domain Information | Device Setting | Highlight | Main Results | Download Link |
 |---|---|---|---|---|---|---|
 | **Action Recognition** |
-| 1 | XRF55[1](@ref) | 4 environments, 39 participants, 55 actions | 1Tx, 3Rx, 20MHz, 5GHz | Multimodal, 55 actions | 87.26% |https://aiotgroup.github.io/XRF55/ |
-| 2 | BullyDetect[2](@ref) | 8 environments, 20 paired participants, 7 actions | 1Tx, 1Rx, 20MHz, 5GHz | Bullying actions | 90.4% |https://github.com/aiotgroup/WiFi-BullyDetect|
-| 3 | WiSDA[3](@ref) | 1 environments, 3 participants, 6 actions | 1Tx, 1Rx, 20MHz | Widar3.0-like | 99.5% |https://www.researchgate.net/publication/385918549_WiSDA_Subdomain_Adaptation_Human_Activity_Recognition_Method_Using_Wi-Fi_Signals|
+| 1 | [XRF55](https://aiotgroup.github.io/XRF55/) | 4 environments, 39 participants, 55 actions | 1Tx, 3Rx, 20MHz, 5GHz | Multimodal, 55 actions | 87.26% |https://aiotgroup.github.io/XRF55/ |
+| 2 | [BullyDetect](https://github.com/aiotgroup/WiFi-BullyDetect) | 8 environments, 20 paired participants, 7 actions | 1Tx, 1Rx, 20MHz, 5GHz | Bullying actions | 90.4% |https://github.com/aiotgroup/WiFi-BullyDetect|
+| 3 | [WiSDA](https://ieeexplore.ieee.org/abstract/document/10756643/) | 1 environments, 3 participants, 6 actions | 1Tx, 1Rx, 20MHz | Widar3.0-like | 99.5% |https://www.researchgate.net/publication/385918549_WiSDA_Subdomain_Adaptation_Human_Activity_Recognition_Method_Using_Wi-Fi_Signals|
 | 4 | WiNDR[4](@ref) | 1 environments, 3 participants, 5 actions, 24 orientation | 1Tx, 1Rx, 20MHz, 5GHz | Full 360° coverage | 78%-92% |https://gitlab.com/yuxiqin/direction-independent|
 | 5 | WiMANS[5](@ref) | 3 environments, 6 participants, 9 actions | 1Tx, 1Rx, 20MHz, 2.4/5GHz | Multi-person | 89.1%-96.6% |https://github.com/huangshk/WiMAN|
 | 6 | WiGuesture[6](@ref) | 1 environments, 8 participants, 6 actions | 1Tx, 1Rx, 100Hz, 2.4GHz | ESP32S3 | 92.57% |https://github.com/RS2002/CSI-BERT|
@@ -89,51 +107,6 @@ Fig. 17: Bubble chart of public Wi-Fi sensing datasets, where the bubble size in
 | 42 | CSI-Bench[42](@ref) | 26 environments, 35 participants | 16 device configuration | In-the-wild data, 461 hours | 94.88% fall detection, etc. |https://ai-iot-sensing.github.io/projects/project.html|
 | 10 | Meneghello et al.[10](@ref) | 7 environments, 13 participants | 1Tx, 1Rx, 80MHz, 5.21GHz | Three tasks, 80MHz | not reported |https://paperswithcode.com/paper/a-csi-dataset-for-wireless-human-sensing-on|
 | 43 | CSI-Net[43](@ref) | 1 environments, 5 positions, 30 participants | 1Tx, 1Rx, 20MHz, 5GHz | Four tasks, Biometrics | 96.67% fall detection, etc. |https://github.com/geekfeiw/CSI-Net|
-
-
-[1](@ref): [wang2024xrf55]
-[2](@ref): [lan2024bullydetect]
-[3](@ref): [2-1jiao2024wisda]
-[4](@ref): [2-10qin2024direction]
-[5](@ref): [huang2024wimans]
-[6](@ref): [zhao2024finding]
-[7](@ref): [2-112bi2024roger]
-[8](@ref): [zhang2023imgfi]
-[9](@ref): [2-38zheng2023resmon]
-[10](@ref): [meneghello2023csi]
-[11](@ref): [demrozi2023dataset]
-[12](@ref): [yang2024mm]
-[13](@ref): [yang2022efficientfi]
-[14](@ref): [yang2022rethinking]
-[15](@ref): [2-26bahadori2022rewis]
-[16](@ref): [bocus2022operanet]
-[17](@ref): [2-163meneghello2022sharp]
-[18](@ref): [moshiri2021csi]
-[19](@ref): [1-6zhang2021wifi]
-[20](@ref): [2-94zhai2021rise]
-[21](@ref): [alazrai2020dataset]
-[22](@ref): [xiao2020deepseg]
-[23](@ref): [1-2ding2020rf]
-[24](@ref): [baha2020dataset]
-[25](@ref): [1-45zheng2019zero]
-[26](@ref): [wang2019joint]
-[27](@ref): [guo2019wiar]
-[28](@ref): [brinke2019dataset,2-161brinke2019scaling]
-[29](@ref): [palipana2018falldefi]
-[30](@ref): [ma2018signfi]
-[31](@ref): [1-50zhang2018crosssense]
-[32](@ref): [yousefi2017survey]
-[33](@ref): [2-130wang2022caution]
-[34](@ref): [2-157zhang2020gaitid]
-[35](@ref): [lan2025xrf]
-[36](@ref): [yan2024person]
-[37](@ref): [2-125gao2023metaloc]
-[38](@ref): [2-121chen2022few]
-[39](@ref): [tony-sdp-2024]
-[40](@ref): [2-36hou2022dasecount]
-[41](@ref): [liu2025wifi]
-[42](@ref): [zhu2025csi]
-[43](@ref): [wang2018csi]
 
 
 
@@ -807,6 +780,10 @@ Y . Han, W. Yang, Y . Hou, F. Shi, and K. Chetty, "Diffusion model-based
 contrastive learning for human activity recognition,"IoT- J, 2024.
 
 #### Metric Learning with Siamese Neural Networks
+<img width="1020" height="526" alt="image" src="https://github.com/user-attachments/assets/7d6f4e5b-27e9-43b9-99a0-ea41cdae5b2d" />
+
+Fig 11: Siamese Neural Networks. (1) The network takes a pair of inputs (e.g., two CSI segments) and feeds them into two identical sub-networks. Both branches share the same parameters (weights), mapping the inputs into a common low-dimensional feature space. (2) The model computes a similarity metric (usually Euclidean distance or Cosine similarity) between the two generated feature vectors. (3) Based on the distance, the system determines whether the two inputs belong to the same class (small distance) or different classes (large distance), often using a contrastive loss function.
+
 \[116\] Y . Ren and J. Yang, "Robust person identification: A wifi
 vision-based approach,"arXiv preprint arXiv:2210.00127, 2022.
 
@@ -820,6 +797,11 @@ network," arXiv preprint arXiv:2408.10919, 2024.
 
 
 #### Metric Learning with Relation Network
+
+<img width="854" height="471" alt="image" src="https://github.com/user-attachments/assets/d45cc7a5-55dc-4908-84b3-6619e8b9b3a3" />
+
+Fig 12: Relation Network. (1) Both the support set and the query sample are passed through an embedding backbone to extract their respective feature maps. (2)The query feature map is paired and concatenated with each feature map in the support set, creating combined feature representations. (3) These concatenated pairs are fed into a Relation Module (usually a non-linear CNN or MLP), which acts as a learnable metric to calculate a relation score (between 0 and 1) for each pair. (4) The query is assigned to the class with the highest relation score, representing the strongest similarity determined by the deep neural network rather than a fixed distance metric.
+
 \[180\] J. Wang, Q. Gao, X. Ma, Y . Zhao, and Y . Fang, "Learning to
 sense: Deep learning for wireless sensing with less training
 efforts,"IEEE Wireless Communications, vol. 27, no. 3, pp. 156--162,
@@ -840,6 +822,14 @@ samples in human-computer interaction,"IEEE JASAC, vol. 40, no. 7,
 pp. 2193-- 2205, 2022.
 
 #### Metric Learning with Matching Network
+
+![fig13](https://github.com/user-attachments/assets/ec3ee2c2-3185-43fd-a378-e8d8620c896b)
+
+Fig 13: Matching Network. (1) Both the small support set and the query sample are mapped into a shared low-dimensional feature space using a neural network.
+(2) The model computes the cosine similarity (or distance metric) between the query embedding and each embedding in the support set.
+(3) These similarity scores are processed through a softmax function to generate attention weights, indicating which support examples most closely resemble the query.
+(4) The final label is predicted by a weighted sum of the support set labels, allowing the model to recognize new classes without any parameter updates.
+
 \[184\] Z. Shi, Q. Cheng, J. A. Zhang, and R. Y . Da Xu,
 "Environment-robust wifi-based human activity recognition using enhanced
 csi and deep learning,"IoT-J, vol. 9, no. 24, pp. 24 643--24 654, 2022.
@@ -858,6 +848,12 @@ location-independent human activity recognition via meta learning,"
 Sensors, vol. 21, no. 8, p. 2654, 2021.
 
 #### Metric Learning with Prototypical Network
+
+<img width="1001" height="560" alt="image" src="https://github.com/user-attachments/assets/40b2a8bb-a078-458b-bfb3-521c816159c2" />
+
+Fig 14: Prototypical Network. (1) For each class in the support set, the model computes a prototype (mean vector) by averaging the feature embeddings of all samples belonging to that class. (2) The query sample is mapped into the same feature space using the shared embedding backbone. (3) The model calculates the Euclidean distance between the query embedding and each class prototype. (4) The query is classified based on a softmax distribution over the negative distances; it is assigned to the class whose prototype is nearest in the embedding space.
+
+
 \[66\] N. Bahadori, J. Ashdown, and F. Restuccia, "Rewis: Reliable wi-fi
 sensing through few-shot multi-antenna multi-receiver csi learning," in
 WoWMoM. IEEE, 2022, pp. 50--59.
@@ -889,6 +885,11 @@ gesture recognition via modified prototypical networks,"IoT-J, vol. 9,
 no. 11, pp. 8584--8596, 2021.
 
 ### Meta Learning for Few-shot Learning
+
+<img width="1394" height="563" alt="image" src="https://github.com/user-attachments/assets/609053f7-446f-4fdb-b605-8b02998c5a0a" />
+
+Fig 15: Model-Agnostic Meta-Learning (MAML) includes a meta-training stage and a meta-testing stage. The meta-training stage is designed to find a good initialization of model parameters such that the model can quickly adapt to new tasks with only a few gradient steps and a small amount of labeled data in the meta-testing stage.
+
 \[194\] C. Finn, P. Abbeel, and S. Levine, "Model-agnostic meta-learning
 for fast adaptation of deep networks," inICML. PMLR, 2017, pp. 1126--
 1135.
@@ -1244,3 +1245,5 @@ Computing and Applications, vol. 35, no. 17, pp. 12 415--12 432, 2023.
 >
 > - **Systems-level Latency and Resource Trade-offs:**  
 >   Beyond accuracy, real-world deployment on COTS chipsets requires balancing model update frequency with inference latency. For high-responsiveness applications, local updates must be optimized to prevent system bottlenecks.
+
+
