@@ -5,7 +5,7 @@
 **Sensing Dataset Platform:** https://sdp8.org/
 
 ```
-@article{wang2026wifi,
+@article{wang2026wifisurvey,
   author    = {Fei Wang and Tingting Zhang and Wei Xi and Han Ding and Ge Wang and Di Zhang and Yuanhao Cui and Fan Liu and Jinsong Han and Jie Xu and Tony Xiao Han},
   title     = {A Survey on Wi-Fi Sensing Generalizability: Taxonomy, Techniques, Datasets, and Future Research Prospects},
   journal   = {IEEE Communications Surveys \& Tutorials},
