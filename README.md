@@ -1259,7 +1259,7 @@ Computing and Applications, vol. 35, no. 17, pp. 12 415--12 432, 2023. [paper]
 
 ##  🐱&🦩 Challenges and Future Directions 
 
-### 1. 🐬 Data, Data, Data
+### 🐬 Data, Data, Data
 
 The scaling law, which involves training large-scale models with large-scale datasets, has proven its success since the advent of AlexNet [Krizhevsky et al., 2012], achieving remarkable breakthroughs in fields such as computer vision (CV), natural language processing (NLP), robotics, and science. Large-scale datasets like ImageNet [Deng et al., 2009], COCO [Lin et al., 2014], and Kinetics [Kay et al., 2017] have significantly accelerated advancements in these areas. In contrast, the field of Wi-Fi human sensing has not progressed as rapidly, despite the widespread adoption of deep learning methods. A key reason lies in the limited scale and diversity of available Wi-Fi sensing datasets.
 
@@ -1284,7 +1284,7 @@ Collecting and annotating Wi-Fi sensing data is inherently time-consuming and la
 * **Long-term Goals (3–5 years):** Realize large-scale, multi-environment closed-loop simulation systems. Develop simulation engines capable of automatically generating complex 3D indoor scenes and dynamic human-environment interactions. The core challenge is overcoming the "Sim-to-Real" domain gap, ensuring models trained entirely on simulated data can be deployed in physical hardware environments.
 
 
-### 2. 🐺 Wi-Fi Sensing Foundation Model Pre-Training
+### 🐺 Wi-Fi Sensing Foundation Model Pre-Training
 
 Foundation models in vision and language, such as CLIP [Radford et al., 2021], GPT [Brown et al., 2020], and BERT [Devlin et al., 2019], have demonstrated remarkable success in adapting to diverse downstream tasks. Similarly, Wi-Fi sensing encompasses a wide range of applications, including human activity recognition, indoor localization, presence detection, and pose estimation. These varied tasks make the development of a Wi-Fi sensing foundation model both promising and necessary. However, training such a model raises several critical open questions:
 
@@ -1305,7 +1305,7 @@ Foundation models in vision and language, such as CLIP [Radford et al., 2021], G
 * **Long-term Goals (3–5 years):** Train large-scale perception foundation models with billions of parameters. Integrate ultra-large-scale unlabeled real-world data with synthetic datasets for zero-shot generalization. Address computational costs and globally distributed device coordination while preserving privacy.
 
 
-### 3. 🐳 When Wi-Fi Sensing Meets Large Multimodal Models
+### 🐳 When Wi-Fi Sensing Meets Large Multimodal Models
 
 Another promising direction is leveraging existing large multimodal models (LMMs) by fine-tuning them to process Wi-Fi data. LMMs trained on diverse images, text, and audio demonstrate impressive adaptability. Integrating Wi-Fi raises several challenges:
 
@@ -1326,7 +1326,7 @@ Another promising direction is leveraging existing large multimodal models (LMMs
 * **Long-term Goals (3–5 years):** Develop native sensing agents with inherent wireless perception. Bridge the semantic gap between low-level Wi-Fi signals and high-level reasoning in LMMs.
 
 
-### 4. 🐍 System Deployment
+### 🐍 System Deployment
 
 Wi-Fi sensing systems can follow a hierarchical "Cloud-to-Edge" deployment pipeline:
 
