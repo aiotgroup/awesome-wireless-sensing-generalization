@@ -26,6 +26,7 @@
 ![fig3](https://github.com/user-attachments/assets/95ff3b85-0965-433c-95dc-449c87cda4e1)
 Fig.3: Growth of research in Wi-Fi sensing generalizability: from a handful of studies between year of 2015 and 2018 to a surge of publications since 2019. We employed a linear regression to fit the growth trend. In the figure, the $R^2$ score indicates the correlation between the estimated results and the ground truth, where a value closer to 1 denotes a higher degree of model fitting. (We selected one representative paper per year based on the highest citation count, ensuring each choice employs a technical approach distinct from those featured in previous years.)
 
+---
 
 ## :turtle: Tools
 
@@ -39,6 +40,7 @@ Fig.3: Growth of research in Wi-Fi sensing generalizability: from a handful of s
 | PicoScenes | 4×4 | a/g/n/ac/ax/be | 1024 | 320 MHz | CSI | https://ps.zpj.io/ |
 | BFM-Tool | 4×4 | ac/ax | 512 | 160 MHz | BFI | https://github.com/Enze-Yi/BFM-tool |
 
+---
 
 ## :dog: Datasets 
 
@@ -116,6 +118,7 @@ Table VII: Wi-Fi Datasets. The main results column mainly denotes the in-domain 
 
 1. Yuan, D., Zhang, X., Hou, W., Lyu, S., Yu, Y., Yu, L. J. T., ... & Wu, C. [OctoNet: A Large-Scale Multi-Modal Dataset for Human Activity Understanding Grounded in Motion-Captured 3D Pose Labels](https://aiot-lab.github.io/OctoNet/). In The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track. 2025. 
 
+---
 
 ## 🐼 Papers
 
@@ -1252,3 +1255,95 @@ Computing and Applications, vol. 35, no. 17, pp. 12 415--12 432, 2023. [paper]
 >   Beyond accuracy, real-world deployment on COTS chipsets requires balancing model update frequency with inference latency. For high-responsiveness applications, local updates must be optimized to prevent system bottlenecks.
 
 
+---
+
+##  🐱&🦩 Challenges and Future Directions 
+
+### 1. 🐬 Data, Data, Data
+
+The scaling law, which involves training large-scale models with large-scale datasets, has proven its success since the advent of AlexNet [Krizhevsky et al., 2012], achieving remarkable breakthroughs in fields such as computer vision (CV), natural language processing (NLP), robotics, and science. Large-scale datasets like ImageNet [Deng et al., 2009], COCO [Lin et al., 2014], and Kinetics [Kay et al., 2017] have significantly accelerated advancements in these areas. In contrast, the field of Wi-Fi human sensing has not progressed as rapidly, despite the widespread adoption of deep learning methods. A key reason lies in the limited scale and diversity of available Wi-Fi sensing datasets.
+
+Recent initiatives are actively narrowing the data gap; for instance, CSI-Bench [Zhu et al., 2025] achieves a milestone in realism with 461 hours of recordings, XRF55 [Wang et al., 2024] significantly expands the sample count to 42,900, and OctoNet [Yuan et al., 2025] comprises 12 heterogeneous modalities. Despite these advancements in data duration and environmental complexity, Wi-Fi sensing datasets still lack the vast scale of CV benchmarks like ImageNet or Kinetics. The gap remains evident not only in raw sample counts but also in the breadth of action categories and participant demographics, emphasizing the need for continued expansion in data diversity.
+
+Collecting and annotating Wi-Fi sensing data is inherently time-consuming and labor-intensive, creating a data-scarcity bottleneck for deep learning. To address this, synthetic data generation has emerged as a promising solution. By leveraging high-fidelity 3D modeling and computational electromagnetics, researchers can simulate diverse human-environment interactions. For example, by placing dynamic 3D human models into various virtual environments and employing ray-tracing algorithms to emulate signal propagation, realistic Wi-Fi CSI data can be synthesized. This approach provides the massive datasets required to train large-scale foundation models, potentially revolutionizing the scalability of Wi-Fi sensing. However, several open challenges, such as the domain gap between simulated and physical signals, remain to be addressed.
+
+#### Open Challenges in Synthetic Data Generation
+
+1. **Modeling signal propagation:** How to model the propagation of signals through people and environments? Can methods like ray-tracing and Fresnel zone models effectively simulate Wi-Fi signals' interactions with objects and people? How to enable modern approaches, such as diffusion models [Ho et al., 2020], Variational Autoencoders (VAEs) [Kingma & Welling, 2013], Neural Radiance Fields (NeRF) [Mildenhall et al., 2021], or 3D Gaussian Splatting [Kerbl et al., 2023] to learn probabilistic mappings of signal propagation patterns from observed data?
+
+2. **Constructing diverse environments:** Should we rely on manual modeling of environments, even though it is resource-intensive? Or should we leverage open-source tools like Unity, Unreal Engine, or Infinigen Indoors [Raistrick et al., 2024], which provide scalable solutions for generating dynamic, realistic environments tailored to Wi-Fi sensing scenarios?
+
+3. **Synthesizing diverse human body models:** Is it more effective to use game engines like Unity or Unreal Engine to create diverse human models? Alternatively, could tools such as SMPL [Loper et al., 2015] or MANO [Romero et al., 2022] be utilized to extract human body/hand models from large-scale video datasets for synthetic data generation?
+
+4. **Bridging synthetic and real data:** Could Generative Adversarial Networks [Goodfellow et al., 2014] help enhance the realism of synthetic features or adapt synthetic data to better match real-world characteristics? What role could domain adaptation and domain-invariant feature learning play in aligning synthetic and real data to improve model performance?
+
+#### Roadmap for Synthetic Data Generation
+
+* **Short-term Goals (1–2 years):** Focus on enhancing signal realism using advanced generative models (Diffusion Models, GANs). Establish a precise "signal-to-physical-entity" mapping to ensure synthesized CSI samples are indistinguishable from real-world data in both frequency and time domains.
+
+* **Long-term Goals (3–5 years):** Realize large-scale, multi-environment closed-loop simulation systems. Develop simulation engines capable of automatically generating complex 3D indoor scenes and dynamic human-environment interactions. The core challenge is overcoming the "Sim-to-Real" domain gap, ensuring models trained entirely on simulated data can be deployed in physical hardware environments.
+
+
+### 2. 🐺 Wi-Fi Sensing Foundation Model Pre-Training
+
+Foundation models in vision and language, such as CLIP [Radford et al., 2021], GPT [Brown et al., 2020], and BERT [Devlin et al., 2019], have demonstrated remarkable success in adapting to diverse downstream tasks. Similarly, Wi-Fi sensing encompasses a wide range of applications, including human activity recognition, indoor localization, presence detection, and pose estimation. These varied tasks make the development of a Wi-Fi sensing foundation model both promising and necessary. However, training such a model raises several critical open questions:
+
+#### Open Questions for Foundation Model Design
+
+1. **Model architectures:** Should we utilize traditional architectures like CNNs and RNNs, or opt for Transformers [Vaswani et al., 2017]? Emerging architectures like Mamba [Gu et al., 2023], known for smaller parameters, reduced memory usage, and faster inference, may also be viable. How to tailor architecture design for different hardware constraints?
+
+2. **Leveraging unlabeled real-world data:** How can large-scale unlabeled real-world Wi-Fi data be incorporated effectively? Should data be transmitted to a central server, or processed at the edge? How can privacy and computational constraints be maintained?
+
+3. **Self-supervised learning strategies:** What proxy tasks are most suitable? Contrastive learning, masking-then-reconstruction (as in BERT or MAE [He et al., 2022]), or domain-specific tasks for capturing spatiotemporal Wi-Fi signal characteristics?
+
+4. **Incorporating environmental and human factors:** Should environmental parameters, human body factors, and device configurations be embedded explicitly, or inferred implicitly by the model?
+
+#### Roadmap for Wi-Fi Foundation Models
+
+* **Short-term Goals (1–2 years):** Construct task-agnostic universal feature extractors using self-supervised learning (e.g., Masked Signal Modeling) on medium-scale datasets. Ensure robustness against device heterogeneity.
+
+* **Long-term Goals (3–5 years):** Train large-scale perception foundation models with billions of parameters. Integrate ultra-large-scale unlabeled real-world data with synthetic datasets for zero-shot generalization. Address computational costs and globally distributed device coordination while preserving privacy.
+
+
+### 3. 🐳 When Wi-Fi Sensing Meets Large Multimodal Models
+
+Another promising direction is leveraging existing large multimodal models (LMMs) by fine-tuning them to process Wi-Fi data. LMMs trained on diverse images, text, and audio demonstrate impressive adaptability. Integrating Wi-Fi raises several challenges:
+
+#### Open Questions
+
+1. **Fine-tuning strategy:** LoRA [Hu et al., 2022], adapters [Rebuffi et al., 2017], or prompt-based fine-tuning [Liu et al., 2021]? How to balance computational efficiency and task performance?
+
+2. **Aligning Wi-Fi with existing modalities:** Should Wi-Fi CSI data be converted to spectrograms/images [Zhang et al., 2023; Jiao et al., 2024] or processed in native time-series format? How to bridge the semantic gap via cross-modal contrastive learning or other alignment techniques?
+
+3. **Incorporating domain knowledge:** Use Wi-Fi propagation principles, IEEE 802.11bf protocols, or Retrieval-Augmented Generation (RAG) [Lewis et al., 2020] for interpretability and efficiency.
+
+4. **Multimodal fusion:** Wi-Fi combined with cameras or IMUs can enhance performance. Techniques like ALBEF [Li et al., 2021], Cross-Attention [Chen et al., 2024], or Mixture of Experts [Yun et al., 2024] may be applied. Challenges include modality-specific noise, temporal synchronization, and computational overhead.
+
+#### Roadmap for LMM Integration
+
+* **Short-term Goals (1–2 years):** Establish efficient semantic alignment between Wi-Fi signals and visual/text modalities. Use cross-modal translation (e.g., WiFi2Radar [Zhang et al., 2020]) to convert Wi-Fi into LMM-compatible tokens.
+
+* **Long-term Goals (3–5 years):** Develop native sensing agents with inherent wireless perception. Bridge the semantic gap between low-level Wi-Fi signals and high-level reasoning in LMMs.
+
+
+### 4. 🐍 System Deployment
+
+Wi-Fi sensing systems can follow a hierarchical "Cloud-to-Edge" deployment pipeline:
+
+#### Open Challenges
+
+1. **Efficient inference:** Deploying large models on COTS chips (e.g., ESP32) requires handling frequency-domain sparsity. Use structure-aware pruning [Han et al., 2015], quantization [Jacob et al., 2018], and knowledge distillation [Hinton et al., 2015] to retain subcarriers sensitive to human motion.
+
+2. **On-device training and fine-tuning:** Environmental shifts require edge adaptation with on-device training [Lin et al., 2022] to calibrate models to local environments.
+
+3. **Sensing-communication coexistence:** Optimize CSI streaming and resource allocation during congestion via downsampling or temporal-spectral compression. Consider ISAC-aware scheduling.
+
+4. **Adversarial resilience:** Protect against physical adversarial attacks [Liu et al., 2022] and explore Generative AI solutions for physical-layer security (e.g., DFSS [Wang et al., 2025]).
+
+5. **Data collection in consumer scenarios:** Minimize manual labeling via implicit feedback loops and cross-modal supervision (e.g., smartphone IMUs). Challenges include noisy labels, privacy restrictions, and concept drift.
+
+#### Roadmap for Deployment
+
+* **Short-term Goals (1–2 years):** Develop lightweight adaptive deployment, low-power calibration-free algorithms, and standardized sensing interfaces (e.g., IEEE 802.11bf).
+
+* **Long-term Goals (3–5 years):** Realize large-scale, privacy-preserving "Sensing-as-a-Service" integrated into smart city infrastructure.
