@@ -582,10 +582,6 @@ adaptation," IoT-J, vol. 9, no. 12, pp. 9872--9888, 2022. [paper]()
 Fig 8: Maximum Mean Discrepancy (MMD) quantifies the similarity between two probability distributions by projecting data into a Reproducing Kernel Hilbert Space (RKHS) and computing the squared distance between their mean embeddings, encouraging the model to learn domain-invariant representations.
 
 
-\[137\] A. Gretton, K. Borgwardt, M. Rasch, B. Sch ¨olkopf, and A.
-Smola, "A kernel method for the two-sample-problem,"NeurIPS, vol. 19,
-2006. [paper]()
-
 \[138\] Y . Zhou, J. Yang, H. Huang, and L. Xie, "Adapose: Towards
 cross-site device-free human pose estimation with commodity wifi,"IoT-J,
 2024. [paper]()
