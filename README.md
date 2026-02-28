@@ -145,6 +145,18 @@ Fig 4: We systematically review and categorize nearly a decade of research on Wi
 
 ## Stage 1: 🐘 Experimental Setup 
 
+<img width="1924" height="420" alt="image" src="https://github.com/user-attachments/assets/f1cb9257-4b60-4ef8-a0e2-73745e4619ff" />
+Fig5: In the experimental setup stage, Wi-Fi generalization can be enhanced by distributing antennas to mitigate the impact of user orientation, deploying devices more widely or optimizing their placement to increase coverage, and collecting more diverse datasets to support the training of more robust and generalizable models.
+
+<br>
+
+Table II: Comparison of Experimental Setup Strategies for Enhanced Generalization.
+| Category | Pros (Advantages) | Cons (Limitations) | Generalization Mechanism | Best-fit Scenarios |
+|-----------|------------------|--------------------|---------------------------|--------------------|
+| **Distributed Antennas** <br> (Qin et al., 2024; Qin et al., 2023; Wang et al., 2018) | Achieves direction-agnostic sensing with single device pairs; minimal additional hardware cost. | Requires manual antenna placement; limited coverage in large-scale areas. | Introduces angular diversity by capturing signals from multiple viewpoints, reducing sensitivity to human orientation and body aspect angle. | Gesture and activity recognition tasks where user orientation varies but deployment scale is limited. |
+| **Distributed Devices** <br> (Bahadori et al., 2022; Zheng et al., 2019; Xiao et al., 2021; Wu et al., 2021) | Provides high spatial resolution; reduces blind spots and mitigates multipath occlusions. | High deployment cost; complex synchronization and calibration across devices. | Exploits spatial diversity by observing heterogeneous signal responses across locations, improving robustness to environmental variations. | Large indoor spaces or complex layouts requiring robust cross-location generalization. |
+| **Scaling Up Dataset** <br> (Wang et al., 2024; Zheng et al., 2019; Zhang et al., 2023; Yang et al., 2024; Zhu et al., 2025) | Enables models to learn implicit invariances; improves robustness and supports few-shot transfer. | Labor-intensive data collection; increased storage and training computation cost. | Enhances population-level generalization by exposing models to diverse human body types, motion patterns, and interaction styles. | Data-driven systems targeting user-independent sensing across diverse populations and activities. |
+
 ### Distributed Antennas
 
 \[63\] Y . Qin, S. Sigg, S. Pan, and Z. Li, "Direction-agnostic gesture
@@ -199,7 +211,35 @@ for versatile wireless sensing,"NeurIPS, vol. 36, 2024.
 bench: A large-scale in-the-wild dataset for multi-task wifi sensing,"
 arXiv preprint arXiv:2505.21866, 2025.
 
+> ### **Key Takeaways and Lessons Learned: Experimental Setup**
+>
+> - **Structural Invariance through Spatial Diversity:**  
+>   Distributed antenna topologies (e.g., staggered or circular layouts) and multi-device configurations (e.g., 1-TX with 4–6 RXs) provide a physical-layer solution to orientation sensitivity. This “structural invariance” ensures multi-view signal observations that effectively mitigate body-shadowing and occlusion.
+>
+> - **Placement as a Robustness Multiplier:**  
+>   Optimizing the geometric placement of transmitters and receivers is critical for capturing spatially heterogeneous channel responses. Strategic layout design not only maximizes the sensing range but also significantly reduces the impact of environmental multipath interference.
+>
+> - **Natural Invariance through Data Scaling:**  
+>   A key lesson from large-scale datasets (e.g., XRF55, CSI-Bench) is the existence of a quantitative threshold where models begin to exhibit “natural” invariance. Massive data exposure allows models to inherently decouple human motion from specific propagation conditions, facilitating easier adaptation to novel domains.
+>
+> - **Exploiting Diversity to Counter Heterogeneity:**  
+>   To overcome device heterogeneity, moving from single-link to multi-link coordinated sensing is essential. Distributed setups exploit spatial and hardware diversity to average out the unique radio artifacts and hardware imperfections of individual commercial Wi-Fi chipsets.
+
+
+
 ## Stage 2: :snail: Signal Preprocessing
+<img width="2079" height="712" alt="image" src="https://github.com/user-attachments/assets/cec677eb-88e3-434e-b8b8-9dcd3cf465c9" />
+Fig 6: Signal Preprocessing Stage
+
+<br>
+
+Table III: Comparison of Signal Preprocessing Techniques for Wi-Fi Sensing Generalization.
+| Category | Pros (Advantages) | Cons (Limitations) | Generalization Mechanism | Best-fit Scenarios |
+|-----------|------------------|--------------------|---------------------------|--------------------|
+| **Signal Analysis** <br>(Lu et al., 2019; Zhou et al., 2022; Yang et al., 2023; Zhuo et al., 2023; Abuhoureyah et al., 2024) | Effective for noise removal, trend extraction, and background subtraction. | Often computationally intensive; may lose non-linear motion details. | Extracting motion-related components via signal decomposition (e.g., PCA, ICA, SSA). | Stable environments; offline analysis; scenarios requiring strong denoising. |
+| **Handcrafted** <br>(Meng et al., 2021; Huang et al., 2021; Gao et al., 2022; Zhang et al., 2022; Yu et al., 2023; Zhang et al., 2022; Peng et al., 2023; Wang et al., 2024; Ding et al., 2024; Peng et al., 2024; Bu et al., 2018; Zhang et al., 2023) | High interpretability; robust to specific interference (e.g., CCI) and phase errors. | Sensitive to hardware variations and chipset-specific phase noise. | Designing invariant indicators (e.g., Phase Difference, IQ curvature) to bypass shifts. | Resource-constrained systems; applications demanding interpretability and robustness. |
+| **Motion Indicators** <br>(Meneghello et al., 2022; Zhao et al., 2024; Yin et al., 2021; Feng et al., 2022; Niu et al., 2021; Chen et al.; Li et al.; Van et al., 2023; Van et al., 2022; Wu et al., 2021; Zheng et al., 2019; Zhang et al., 2023; Yang et al., 2023; Shi et al., 2023; Bulugu et al., 2023; Zhang et al., 2020; Xiao et al., 2021; Chi et al., 2024; Gao et al., 2021; Shi et al., 2020; Wang et al., 2022; Wu et al., 2016; Wang et al., 2016; Qin et al., 2024; Zhang et al., 2019; Zhang et al., 2021; Zhang et al., 2019; Zhu et al., 2024) | High-level physical abstraction; achieves environment and location independence. | Requires high-resolution CSI or specific multi-antenna configurations. | Mapping signals to body-coordinate velocity/speed profiles (e.g., BVP, DFS). | Cross-environment deployment; user-independent sensing; mobility-centric tasks. |
+| **Angle Indicators** <br>(Li et al., 2020; Han et al., 2023; Ren et al., 2022) | Provides precise spatial geometry; robust for trajectory tracking and Re-ID. | Performance is sensitive to antenna array calibration and layout. | Utilizing spatial consistency (e.g., AoA, ADoA) to digitize human posture and movement. | Localization, tracking, and identification tasks with calibrated antenna arrays. |
 
 ### Signal Analysis Methods
 \[74\] Y . Lu, S. Lv, and X. Wang, "Towards location independent gesture
@@ -414,11 +454,46 @@ wi-fi,"IEEE Sensors Journal, vol. 23, no. 14, pp. 16 264--16 275, 2023.
 vision-based approach,"arXiv preprint arXiv:2210.00127, 2022.
 
 
+> ### **Key Takeaways and Lessons Learned: Signal Preprocessing**
+>
+> - **Signal Analysis for Denoising:**  
+>   Algorithms like LRSD, SSA, and PCA are fundamental for extracting action-related components from background noise. These methods enhance resilience to location variations and enable robust monitoring (e.g., breath detection) even in non-ideal positions.
+>
+> - **Handcrafted IQ & Phase Features:**  
+>   Advanced indicators derived from phase differences or the IQ complex plane (e.g., SPD, rotational features) capture fine-grained patterns. Notably, features like NLPEV provide independence from CCI, which is crucial for real-world robustness.
+>
+> - **Physical Invariance via Motion Indicators:**  
+>   Transitioning to speed/velocity profiles, particularly the BVP and the Fresnel Zone Model, represents a major shift toward domain invariance. By mapping signals to speed or body-relative coordinates, systems decouple sensing from the user's orientation and environment.
+>
+> - **Geometric Consistency with Angle Indicators:**  
+>   Angle-based measurements, such as AoA and ADoA, provide spatial geometric paths that remain consistent across domains. These allow for real-time trajectory reconstruction and 3D body representation, enabling complex tasks like person re-identification.
+>
+> - **Signal-to-Visual Feature Enrichment:**  
+>   Converting 1D CSI time-series into 2D representations (e.g., Recurrence Plots, Grayscale images) bridges the gap between signal processing and computer vision, allowing models to benefit from powerful pre-trained visual architectures and data augmentation.
+
+
+
 ## Stage 3: 🦊 Feature Learning
+<br>
+
+Table IV: Comparison of Pros, Cons, and Best-fit Scenarios of Feature Learning Techniques in Wi-Fi Sensing.
+| Category | Pros (Advantages) | Cons (Limitations) | Generalization Mechanism | Best-fit Scenarios |
+|-----------|------------------|--------------------|---------------------------|--------------------|
+| **Domain Alignment** <br>(Wang et al., 2021; Sheng et al., 2023; Zhang et al., 2021; Zhou et al., 2024; Zou et al., 2018; Li et al., 2021; Zhang et al., 2021; Jiang et al., 2018; Khattak et al., 2022; Wang et al., 2019; Zhang et al., 2024; Zinys et al., 2021; Strohmayer et al., 2024; Liu et al., 2023; Yin et al., 2021; Yang et al., 2024; Qin et al., 2023; Berlo et al., 2023; Zhou et al.; Yan et al., 2024; Li et al., 2021; Shi et al., 2020; Chen et al., 2022; Gretton et al., 2006; Zhou et al., 2024; Rao et al., 2024; Kang et al., 2021; Liang et al., 2023; Zhang et al., 2023; Mehryar et al., 2023; Zhou et al., 2020; Xiao et al., 2024; Kang et al., 2019; Jiao et al., 2024; Gong et al., 2024; Sheng et al., 2024; Chen et al.; Zhan et al., 2024; Wang et al., 2022; Ding et al., 2020; Zhang et al., 2022; Zhang et al., 2022; Mao et al., 2024; Xiao et al., 2023; Zhang et al., 2018; Sugimoto et al., 2023; Zhang et al., 2023; Islam et al., 2020; Wang et al., 2024) | Mitigates domain and hardware shifts; statistical metrics provide theoretical grounding. | Risk of suppressing discriminative motion features during aggressive alignment. | Enforces distribution-level invariance by aligning feature statistics across domains (e.g., adversarial learning, MMD). | Large domain shifts (e.g., cross-room or cross-device) with labeled source and unlabeled target data. |
+| **Disentanglement** <br>(Elujide et al., 2022; Chen et al., 2024; Wang et al., 2019; Hao et al., 2021; Wu et al., 2021) | Strong physical interpretability; separates motion features from environment or identity noise. | Requires complex architectures (e.g., GANs or autoencoders) and careful hyperparameter tuning. | Factorizes latent representations into independent components to isolate task-relevant signals. | Scenarios with multiple interference factors (e.g., identical gestures by different users or locations). |
+| **Metric Learning** <br>(Zhou et al., 2022; Wei et al., 2024; Bu et al., 2022; Liu et al., 2024; Zhang et al., 2024; Wu et al., 2018; Xiao et al., 2022; Xu et al., 2022; Wang et al., 2024; Xiao et al., 2024; Ren et al., 2022; Liang et al., 2024; Zhao et al., 2024; Wang et al., 2020; Hu et al., 2021; Zhang et al., 2023; Zhang et al., 2022; Shi et al., 2022; Shi et al., 2020; Shi et al., 2020; Zhao et al., 2024; Ding et al., 2021; Bahadori et al., 2022; Ding et al., 2021; Gu et al., 2021; Wang et al., 2022; Yang et al., 2023; Zhang et al., 2021) | Native few-shot and zero-shot support; scalable to new classes via template updates. | Highly dependent on support set quality; risk of class overlap in the embedding space. | Structures the embedding space by minimizing intra-class distance and maximizing inter-class separability. | Scenarios with extreme scarcity of target labels or dynamic needs for novel class recognition. |
+| **Meta Learning** <br>(Huang et al., 2022; Zhou et al., 2022; Gao et al., 2023; Sheng et al., 2024; Zhao et al., 2024; Feng et al., 2022; Ding et al., 2020; Gao et al., 2022; Zhang et al., 2022; Zhang et al., 2020) | Rapid adaptation to new tasks; learns an initialization for fast convergence. | High computational cost during offline meta-training (e.g., second-order gradients). | Optimizes model parameters for fast task-level adaptation through episodic training across domains. | Edge deployment requiring immediate high accuracy after minimal user calibration. |
+| **Data Synthesis** <br>(Li et al., 2021; Wang et al., 2020; Zhang et al., 2023; Huang et al., 2024; Wang et al., 2021; Zhang et al., 2023; Zhang et al., 2024; Xiao et al., 2019; Chen et al., 2022; Chen et al., 2020; Yan et al., 2024; Xiao et al., 2024; Zhou et al., 2022; Wang et al., 2018; Lan et al., 2024; Zhou et al., 2022; Wang et al., 2022; Hou et al., 2024; Liu et al., 2023; Virmani et al., 2017; Mao et al., 2024; Wang et al., 2025; Xiao et al., 2022; Xiao et al., 2021; Zhao et al., 2024; Wang et al., 2024) | Directly mitigates data scarcity; generative models improve coverage of rare cases. | Potential sim-to-real gap between synthetic samples and real-world signal data. | Expands training distributions by synthesizing diverse or unseen signal patterns. | Plug-in augmentation for tasks with insufficient, imbalanced, or hard-to-collect labeled data. |
+| **Pseudo Labeling** <br>(Zhou et al., 2022; Chen et al.; Zhang et al., 2023; Sheng et al., 2023; Zhang et al., 2023) | Leverages abundant unlabeled target data via self-training. | Risk of error accumulation from early incorrect pseudo-labels. | Iteratively refines decision boundaries using confident predictions as surrogate labels. | Semi-supervised sensing tasks with long-term accumulation of unlabeled data. |
 
 ### Domain Alignment
 
 #### Domain Alignment with Domain Discriminator
+
+![fig7](https://github.com/user-attachments/assets/e65d5d71-4242-4899-a5f7-c99dd335bcb3)
+Fig 7: Domain alignment with domain discriminator or domain classifier. Both source and target data are mapped into a shared feature space. Through adversarial competition between an action classifier and a domain discriminator, the network learns to produce domain-agnostic representations that enhance cross-domain performance.
+
+
 \[117\] Z. Wang, S. Chen, W. Yang, and Y . Xu, "Environment-independent
 wi-fi human activity recognition with adversarial network," inICASSP.
 IEEE, 2021, pp. 3330--3334.
@@ -976,7 +1051,43 @@ p. 101850, 2023.
 domain adaptation for wifi gesture recognition," inWCNC. IEEE, 2023,
 pp. 1--6.
 
+
+> ### **Key Takeaways and Lessons Learned: Feature Learning**
+>
+> - **Domain Alignment for Distribution Matching:**  
+>   Minimizing domain divergence via adversarial discriminators or statistical metrics (e.g., MMD, EMD) is fundamental. A key lesson is using cross-modal embeddings (e.g., BERT, GPT-4o) as “semantic anchors” to bridge the gap between raw CSI and high-level human activities.
+>
+> - **Component Disentanglement for Interpretability:**  
+>   Explicitly separating environment, identity, and motion components using GANs or specialized encoders ensures that the model ignores environmental noise. This disentangled latent space is critical for handling multi-factor variations in real-world settings.
+>
+> - **Metric Learning for Few-shot Scalability:**  
+>   Structuring the feature space using triplet loss, contrastive learning, or prototypical networks allows for clustering similar actions. The major takeaway is the high scalability of similarity-based matching, which enables zero/few-shot recognition of novel classes without retraining the backbone.
+>
+> - **Meta-Learning for Rapid Adaptation:**  
+>   Paradigms like MAML and Reptile focus on “learning how to learn” by optimizing for a superior parameter initialization. This ensures that the sensing system can converge to a site-specific optimum with minimal gradient steps (e.g., one-shot or few-shot).
+>
+> - **Data Synthesis as a Robustness Plug-in:**  
+>   Beyond simple augmentations, generative models (GANs, VAEs, and Diffusion) are essential for simulating target-domain conditions. These modules mitigate the Sim-to-Real gap by expanding training diversity with physically plausible synthetic signals.
+>
+> - **Pseudo Labeling for Iterative Refinement:**  
+>   Leveraging abundant unlabeled target data through virtual labels reduces annotation costs. The iterative refinement of these labels (e.g., via confidence thresholds or centroid-based reassignment) is vital for long-term performance improvement in unfamiliar domains.
+
+
 ## Stage 4: :monkey: Model Deployment
+
+<img width="1575" height="463" alt="deployment" src="https://github.com/user-attachments/assets/fecc906c-5d9c-4030-833b-ce70d0fb1daa" />
+Fig 16: Wi-Fi sensing generalization methods in the deployment stage. (a) Few-shot fine-tuning. In this approach, a Wi-Fi sensing network is first pre-trained on a large-scale dataset to learn general feature extraction capabilities. During deployment, the parameters of the backbone are kept frozen, while only the task head is fine-tuned using data from the target scenario. This strategy enables rapid deployment in new environments with minimal computational overhead. (b) Federated Learning. This method involves aggregating data from diverse scenarios for centralized training on the server side. By exposing the model to a sufficiently wide range of environments during the training phase, it learns to capture robust, cross-domain features. Consequently, the model can be deployed into target scenarios, achieving seamless zero-shot generalization.
+(c) Continual Learning. To handle the continuous influx of new sensing tasks and environmental data, the model evolves through sequential training stages as new data arrives, allowing it to incrementally acquire knowledge from novel scenarios. This approach ensures the model remains adaptive to dynamic environmental changes while mitigating the risk of catastrophic forgetting.
+
+
+<br>
+
+Table V: Comparison of Model Deployment Strategies in Wi-Fi Sensing.
+| Approach | Pros (Advantages) | Cons (Limitations) | Generalization Mechanism | Best-fit Scenarios |
+|-----------|------------------|--------------------|---------------------------|--------------------|
+| **Transfer Learning** <br>(Wang et al., 2024; Lan et al., 2024; Ding et al., 2020; Chen et al., 2021; Brinke et al., 2019; Fang et al., 2020; Yin et al., 2022; Zheng et al., 2023; Bi et al., 2024; Hou et al., 2022; Hou et al., 2022) | Fast deployment by leveraging pre-trained weights.<br>Resource efficient with minimal fine-tuning on edge devices. | Requires labeled target samples.<br>Performance degrades under large domain gaps. | Adapts shared representations by fine-tuning higher layers to capture environment- or user-specific patterns. | Rapid adaptation to a specific new environment, user, or novel sensing task. |
+| **Federated Learning** <br>(Hernandez et al., 2021; Geng et al., 2023; Li et al., 2023; Qi et al., 2023; Zhang et al., 2023; Zhang et al., 2021; Zhang et al., 2023) | Preserves data privacy as raw CSI remains local.<br>Benefits from collaborative learning across clients. | Communication overhead from frequent model synchronization.<br>Latency in large-scale deployments. | Learns globally robust models by aggregating heterogeneous local updates from diverse environments. | Privacy-sensitive applications such as home security or multi-user collaborative sensing. |
+| **Continual Learning** <br>(Yang et al., 2023; Bai et al., 2019; Soltanaghaei et al., 2020; Zhai et al., 2021; Fu et al., 2024; Zhang et al., 2025; Zhang et al., 2023) | Incrementally acquires new knowledge with local updates.<br>Communication efficient for long-term deployment. | Risk of catastrophic forgetting.<br>Potential inference or update latency on COTS devices. | Maintains generalization over time by balancing knowledge retention and adaptation to new data distributions. | Long-term deployments where environments, furniture layouts, or user behaviors evolve. |
 
 ### Transfer Learning
 \[70\] F. Wang, Y . Lv, M. Zhu, H. Ding, and J. Han, "Xrf55: A radio
@@ -1095,3 +1206,20 @@ coordination," Sensors, 2025.
 \[240\] Y . Zhang, F. He, Y . Wang, D. Wu, and G. Yu, "Csi-based cross-
 scene human activity recognition with incremental learning,"Neural
 Computing and Applications, vol. 35, no. 17, pp. 12 415--12 432, 2023.
+
+> ### **Key Takeaways and Lessons Learned: Model Deployment**
+>
+> - **Hierarchical Efficiency in Transfer Learning:**  
+>   While fine-tuning the entire network yields superior accuracy, freezing the backbone and updating only the task head is most viable for resource-constrained edge devices. This strategy balances global feature representation with site-specific adaptation.
+>
+> - **Privacy-Preserving Collaborative Generalization:**  
+>   Federated Learning is a powerful engine for building robust global models without moving raw CSI data. A major lesson is managing communication overhead during parameter exchange and addressing the performance drops caused by shifted data distributions across heterogeneous clients.
+>
+> - **Evolution through Continual Learning:**  
+>   To handle long-term environmental drifts (e.g., furniture moving), models must incrementally acquire knowledge. The core challenge is mitigating catastrophic forgetting; strategies like data replay and dynamic model expansion are essential to preserve performance on original tasks.
+>
+> - **Minimizing User Burden in Online Adaptation:**  
+>   Incorporating “User-in-the-loop” mechanisms allows for continuous refinement. The key takeaway is using anomaly detection and high-confidence sampling to minimize the labeling effort required from users during the adaptation phase.
+>
+> - **Systems-level Latency and Resource Trade-offs:**  
+>   Beyond accuracy, real-world deployment on COTS chipsets requires balancing model update frequency with inference latency. For high-responsiveness applications, local updates must be optimized to prevent system bottlenecks.
