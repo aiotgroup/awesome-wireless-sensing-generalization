@@ -110,6 +110,11 @@ Table VII: Wi-Fi Datasets. The main results column mainly denotes the in-domain 
 | 10 | [Meneghello et al.](https://ieeexplore.ieee.org/abstract/document/10144501/)  | 7 environments, 13 participants | 1Tx, 1Rx, 80MHz, 5.21GHz | Three tasks, 80MHz | not reported |https://paperswithcode.com/paper/a-csi-dataset-for-wireless-human-sensing-on|
 | 43 | [CSI-Net](https://github.com/geekfeiw/CSI-Net) | 1 environments, 5 positions, 30 participants | 1Tx, 1Rx, 20MHz, 5GHz | Four tasks, Biometrics | 96.67% fall detection, etc. |https://github.com/geekfeiw/CSI-Net|
 
+### 🦙 Latest Dataset Update 
+
+**You are welcome to contribute datasets via issues or pull requests.**
+
+1. Yuan, D., Zhang, X., Hou, W., Lyu, S., Yu, Y., Yu, L. J. T., ... & Wu, C. [OctoNet: A Large-Scale Multi-Modal Dataset for Human Activity Understanding Grounded in Motion-Captured 3D Pose Labels](https://aiot-lab.github.io/OctoNet/). In The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track. 2025. 
 
 
 ## 🐼 Papers
@@ -142,49 +147,49 @@ recognition system using wifi signals,"Electronics Letters, vol. 59, no.
 16, p. e12931, 2023. [paper](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ell2.12931)
 
 \[65\] F. Wang, W. Gong, and J. Liu, "On spatial diversity in wifi-based
-human activity recognition: A deep learning-based approach,"IoT-J,
-vol. 6, no. 2, pp. 2035--2047, 2018.
+human activity recognition: A deep learning-based approach,"IoT-J, 
+vol. 6, no. 2, pp. 2035--2047, 2018. [paper]()
 
 
 ### Distributed Devices
 
 \[66\] N. Bahadori, J. Ashdown, and F. Restuccia, "Rewis: Reliable wi-fi
 sensing through few-shot multi-antenna multi-receiver csi learning," in
-WoWMoM. IEEE, 2022, pp. 50--59.
+WoWMoM. IEEE, 2022, pp. 50--59. [paper]()
 
 \[67\] Y . Zheng, Y . Zhang, K. Qian, G. Zhang, Y . Liu, C. Wu, and Z.
 Yang, "Zero-effort cross-domain gesture recognition with wi-fi,"
-inMobiSys, 2019, pp. 313--325.
+inMobiSys, 2019, pp. 313--325. [paper]()
 
 \[68\] R. Xiao, J. Liu, J. Han, and K. Ren, "Onefi: One-shot recognition
-for unseen gesture via cots wifi," inSenSys, 2021, pp. 206--219.
+for unseen gesture via cots wifi," inSenSys, 2021, pp. 206--219. [paper]()
 
 \[69\] D. Wu, Y . Zeng, R. Gao, S. Li, Y . Li, R. C. Shah, H. Lu, and D.
 Zhang, "Witraj: Robust indoor motion tracking with wifi signals,"IEEE
-TMC, vol. 22, no. 5, pp. 3062--3078, 2021.
+TMC, vol. 22, no. 5, pp. 3062--3078, 2021. [paper]()
 
 ### Scaling Up Dataset
 
 \[70\] F. Wang, Y . Lv, M. Zhu, H. Ding, and J. Han, "Xrf55: A radio
 frequency dataset for human indoor action analysis,"IMWUT, vol. 8, no.
-1, pp. 1--34, 2024.
+1, pp. 1--34, 2024. [paper]()
 
 \[67\] Y . Zheng, Y . Zhang, K. Qian, G. Zhang, Y . Liu, C. Wu, and Z.
 Yang, "Zero-effort cross-domain gesture recognition with wi-fi,"
-inMobiSys, 2019, pp. 313--325.
+inMobiSys, 2019, pp. 313--325. [paper]()
 
 \[71\] Y . Zhang, Y . Yin, Y . Wang, J. Ai, and D. Wu, "Csi-based
 location- independent human activity recognition with parallel
 convolutional networks,"Computer Communications, vol. 197, pp. 87--95,
-2023.
+2023. [paper]()
 
 \[72\] J. Yang, H. Huang, Y . Zhou, X. Chen, Y . Xu, S. Yuan, H. Zou, C.
 X. Lu, and L. Xie, "Mm-fi: Multi-modal non-intrusive 4d human dataset
-for versatile wireless sensing,"NeurIPS, vol. 36, 2024.
+for versatile wireless sensing,"NeurIPS, vol. 36, 2024. [paper]()
 
 \[73\] G. Zhu, Y . Hu, W. Gao, W.-H. Wang, B. Wang, and K. Liu, "Csi-
 bench: A large-scale in-the-wild dataset for multi-task wifi sensing,"
-arXiv preprint arXiv:2505.21866, 2025.
+arXiv preprint arXiv:2505.21866, 2025. [paper]()
 
 > ### **Key Takeaways and Lessons Learned: Experimental Setup**
 >
@@ -219,214 +224,212 @@ Table III: Comparison of Signal Preprocessing Techniques for Wi-Fi Sensing Gener
 ### Signal Analysis Methods
 \[74\] Y . Lu, S. Lv, and X. Wang, "Towards location independent gesture
 recognition with commodity wifi devices,"Electronics, vol. 8, no. 10,
-p. 1069, 2019.
+p. 1069, 2019. [paper]()
 
 \[75\] R. Zhou, Z. Gong, K. Tang, B. Zhou, and Y . Cheng, "Device-free
 cross location activity recognition via semi-supervised deep
 learning,"Neural Computing and Applications, vol. 34, no. 12, pp. 10
-189--10 203, 2022.
+189--10 203, 2022. [paper]()
 
 \[76\] J. Yang, Y . Liu, Y . Wu, P. Yang, and Z. Liu, "Gait-enhance:
 Robust gait recognition of complex walking patterns based on wifi csi,"
-inSmart World Congress. IEEE, 2023, pp. 1--9.
+inSmart World Congress. IEEE, 2023, pp. 1--9. [paper]()
 
 \[77\] H. Zhuo, X. Wu, Q. Zhong, and H. Zhang, "Position-free breath
-detection during sleep via commodity wifi,"IEEE Sensors Journal, 2023.
+detection during sleep via commodity wifi,"IEEE Sensors Journal, 2023. [paper]()
 
 \[78\] F. Abuhoureyah, S. K. Swee, and W. Y . Chiew, "Multi-user human
 activity recognition through adaptive location-independent wifi signal
-characteristics,"IEEE Access, 2024.\[79\] W. Meng, X. Chen, W. Cui, and
-J. Guo, "Wihgr: A robust wifi-based human gesture recognition system via
-sparse recovery and modified attention-based bgru,"IoT-J, vol. 9, no.
-12, pp. 10 272--10 282, 2021.
+characteristics,"IEEE Access, 2024. [paper]()
+
 
 ### Advanced Handcrafted Indicators
 
 \[79\] W. Meng, X. Chen, W. Cui, and
 J. Guo, "Wihgr: A robust wifi-based human gesture recognition system via
 sparse recovery and modified attention-based bgru,"IoT-J, vol. 9, no.
-12, pp. 10 272--10 282, 2021.
+12, pp. 10 272--10 282, 2021. [paper]()
 
 \[80\] J. Huang, B. Liu, C. Miao, Y . Lu, Q. Zheng, Y . Wu, J. Liu, L.
 Su, and C. W. Chen, "Phaseanti: An anti-interference wifi-based activity
 recognition system using interference-independent phase component," IEEE
-TMC, vol. 22, no. 5, pp. 2938--2954, 2021.
+TMC, vol. 22, no. 5, pp. 2938--2954, 2021. [paper]()
 
 \[81\] R. Gao, W. Li, Y . Xie, E. Yi, L. Wang, D. Wu, and D. Zhang,
 "Towards robust gesture recognition by characterizing the sensing
-quality of wifi signals,"IMWUT, vol. 6, no. 1, pp. 1--26, 2022.
+quality of wifi signals,"IMWUT, vol. 6, no. 1, pp. 1--26, 2022. [paper]()
 
 \[82\] J. Zhang, Y . Li, H. Xiong, D. Dou, C. Miao, and D. Zhang,
 "Handgest: Hierarchical sensing for robust-in-the-air handwriting
 recognition with commodity wifi devices,"IoT-J, vol. 9, no. 19, pp. 19
-529--19 544, 2022.
+529--19 544, 2022. [paper]()
 
 \[83\] X. Yu, T. Jiang, X. Ding, Z. Yao, X. Zhou, and Y . Zhong,
 "Towards position-independent gesture recognition based on wifi by
-subcarrier selection and gesture code," inWCNC. IEEE, 2023, pp. 1--6.
+subcarrier selection and gesture code," inWCNC. IEEE, 2023, pp. 1--6. [paper]()
 
 \[84\] Y . Zhang, Q. Liu, Y . Wang, and G. Yu, "Csi-based
 location-independent human activity recognition using feature
-fusion,"IEEE TIM, vol. 71, pp. 1--12, 2022.
+fusion,"IEEE TIM, vol. 71, pp. 1--12, 2022. [paper]()
 
 \[85\] C. Peng, L. Gui, B. Sheng, Z. Guo, and F. Xiao, "Rosefi: A robust
 sedentary behavior monitoring system with commodity wifi devices," IEEE
-TMC, 2023.
+TMC, 2023. [paper]()
 
 \[86\] X. Wang, A. Yu, K. Niu, W. Shi, J. Wang, Z. Yao, R. C. Shah, H.
 Lu, and D. Zhang, "Understanding the diffraction model in static
 multipath- rich environments for wifi sensing system design,"IEEE TMC,
-2024.
+2024. [paper]()
 
 \[87\] X. Ding, X. Yu, Y . Zhong, W. Xie, B. Cai, M. You, and T. Jiang,
 "Robust gesture recognition method toward intelligent environment using
-wi-fi signals,"Measurement, vol. 231, p. 114525, 2024.
+wi-fi signals,"Measurement, vol. 231, p. 114525, 2024. [paper]()
 
 \[88\] M. Peng, X. Fu, H. Zhao, Y . Wang, and C. Kai, "Likey: Location-
 independent keystroke recognition on numeric keypads using wifi
-signal,"Computer Networks, vol. 245, p. 110354, 2024.
+signal,"Computer Networks, vol. 245, p. 110354, 2024. [paper]()
 
 \[89\] Q. Bu, G. Yang, J. Feng, and X. Ming, "Wi-fi based gesture
 recognition using deep transfer learning," inSmartWorld, Ubiquitous
 Intelligence & Computing, Advanced & Trusted Computing, Scalable
 Computing & Communications, Cloud & Big Data Computing, Internet of
-People and Smart City Innovation. IEEE, 2018, pp. 590--595.
+People and Smart City Innovation. IEEE, 2018, pp. 590--595. [paper]()
 
 \[90\] C. Zhang, W. Jiao, and W. Du, "Enhancing human activity
 recognition performance in small-sample wi-fi sensing using data
-augmentation methods," inICCT. IEEE, 2023, pp. 473--478.
+augmentation methods," inICCT. IEEE, 2023, pp. 473--478. [paper]()
 
 ### Motion Indicators
 
 \[91\] F. Meneghello, D. Garlisi, N. Dal Fabbro, I. Tinnirello, and M.
 Rossi, "Sharp: Environment and person independent activity recognition
 with commodity ieee 802.11 access points,"IEEE TMC, vol. 22, no. 10,
-pp. 6160--6175, 2022.
+pp. 6160--6175, 2022. [paper]()
 
 \[92\] L. Zhao, R. Xiao, J. Liu, and J. Han, "One is enough: Enabling
 one-shot device-free gesture recognition with cots wifi," inINFOCOM.
-IEEE, 2024, pp. 1231--1240.
+IEEE, 2024, pp. 1231--1240. [paper]()
 
 \[93\] Y . Yin, Z. Zhang, X. Yang, F. Yan, and Q. Niu, "Towards fully
 domain- independent gesture recognition using cots wifi
-device,"Electronics Letters, vol. 57, no. 5, pp. 232--234, 2021.
+device,"Electronics Letters, vol. 57, no. 5, pp. 232--234, 2021. [paper]()
 
 \[94\] C. Feng, N. Wang, Y . Jiang, X. Zheng, K. Li, Z. Wang, and X.
 Chen, "Wi-learner: Towards one-shot learning for cross-domain wi-fi
-based gesture recognition,"IMWUT, vol. 6, no. 3, pp. 1--27, 2022.
+based gesture recognition,"IMWUT, vol. 6, no. 3, pp. 1--27, 2022. [paper]()
 
 \[95\] K. Niu, F. Zhang, X. Wang, Q. Lv, H. Luo, and D. Zhang, "Under-
 standing wifi signal frequency features for position-independent gesture
-sensing,"IEEE TMC, vol. 21, no. 11, pp. 4156--4171, 2021.
+sensing,"IEEE TMC, vol. 21, no. 11, pp. 4156--4171, 2021. [paper]()
 
 \[96\] J. Chen, S. Bi, X.-H. Lin, and Z. Quan, "Lager: Label-free
 domain- adaptive wireless gesture recognition via latent feature
 alignment and augmentation,"IoT-J, vol. 11, no. 23, pp. 37 928--37 941,
-2024.
+2024. [paper]()
 
 \[97\] S. Li, Z. Liu, Q. Lv, Y . Zou, Y . Zhang, and D. Zhang, "Wilife:
 Long-term daily status monitoring and habit mining of the elderly
 leveraging ubiquitous wi-fi signals,"ACM Transactions on Computing for
-Healthcare.
+Healthcare. [paper]()
 
 \[98\] B. van Berlo, C. Oerlemans, F. L. Marogna, T. Ozcelebi, and N.
 Merat- nia, "Mini-batch alignment: A deep-learning model for domain
 factor- independent feature extraction for wi-fi--csi data,"Sensors,
-vol. 23, no. 23, p. 9534, 2023.
+vol. 23, no. 23, p. 9534, 2023. [paper]()
 
 \[99\] B. van Berlo, T. Ozcelebi, and N. Meratnia, "Insights on mini-
 batch alignment for wifi-csi data domain factor independent feature
 extraction," inInternational Conference on Pervasive Computing and
 Communications Workshops and other Affiliated Event. IEEE, 2022,
-pp. 527--532.
+pp. 527--532. [paper]()
 
 \[69\] D. Wu, Y . Zeng, R. Gao, S. Li, Y . Li, R. C. Shah, H. Lu, and D.
 Zhang, "Witraj: Robust indoor motion tracking with wifi signals,"IEEE
-TMC, vol. 22, no. 5, pp. 3062--3078, 2021.
+TMC, vol. 22, no. 5, pp. 3062--3078, 2021. [paper]()
 
 \[67\] Y . Zheng, Y . Zhang, K. Qian, G. Zhang, Y . Liu, C. Wu, and Z.
 Yang, "Zero-effort cross-domain gesture recognition with wi-fi,"
-inMobiSys, 2019, pp. 313--325.
+inMobiSys, 2019, pp. 313--325. [paper]()
 
 \[100\] B.-B. Zhang, D. Zhang, Y . Hu, and Y . Chen, "Unsupervised
 domain adaptation for wifi gesture recognition," inWCNC. IEEE, 2023,
-pp. 1--6.
+pp. 1--6. [paper]()
 
 \[101\] M. Yang, H. Zhu, R. Zhu, F. Wu, L. Yin, and Y . Yang,
 "Witransformer: A novel robust gesture recognition sensing model with
-wifi,"Sensors, vol. 23, no. 5, p. 2612, 2023.
+wifi,"Sensors, vol. 23, no. 5, p. 2612, 2023. [paper]()
 
 \[102\] W. Shi, M. Duan, H. He, L. Lin, C. Yang, C. Li, and J. Zhao,
 "Location adaptive motion recognition based on wi-fi feature
-enhancement," Applied Sciences, vol. 13, no. 3, p. 1320, 2023.
+enhancement," Applied Sciences, vol. 13, no. 3, p. 1320, 2023. [paper]()
 
 \[103\] I. Bulugu, "Gesture recognition system based on cross-domain csi
 extracted from wi-fi devices combined with the 3d cnn,"Signal, Image and
-Video Processing, vol. 17, no. 6, pp. 3201--3209, 2023.
+Video Processing, vol. 17, no. 6, pp. 3201--3209, 2023. [paper]()
 
 \[30\] Y . Zhang, Y . Zheng, G. Zhang, K. Qian, C. Qian, and Z. Yang,
 "Gaitid: Robust wi-fi based gait recognition," inWASA. Springer, 2020,
-pp. 730--742.
+pp. 730--742. [paper]()
 
 \[68\] R. Xiao, J. Liu, J. Han, and K. Ren, "Onefi: One-shot recognition
-for unseen gesture via cots wifi," inSenSys, 2021, pp. 206--219.
+for unseen gesture via cots wifi," inSenSys, 2021, pp. 206--219. [paper]()
 
 \[104\] G. Chi, G. Zhang, X. Ding, Q. Ma, Z. Yang, Z. Du, H. Xiao, and
 Z. Liu, "Xfall: Domain adaptive wi-fi-based fall detection with cross-
-modal supervision,"IEEE JASAC, 2024.
+modal supervision,"IEEE JASAC, 2024. [paper]()
 
 \[105\] R. Gao, M. Zhang, J. Zhang, Y . Li, E. Yi, D. Wu, L. Wang, and
 D. Zhang, "Towards position-independent sensing for gesture recogni-
-tion with wi-fi,"IMWUT, vol. 5, no. 2, pp. 1--28, 2021.
+tion with wi-fi,"IMWUT, vol. 5, no. 2, pp. 1--28, 2021. [paper]()
 
 \[106\] C. Shi, J. Liu, N. Borodinov, B. Leao, and Y . Chen, "Towards
 environment-independent behavior-based user authentication using wifi,"
-inMASS. IEEE, 2020, pp. 666--674.
+inMASS. IEEE, 2020, pp. 666--674. [paper]()
 
 \[107\] Y . Wang, Y . Tian, and R. Peng, "Position and orientation
 independent wireless gesture recognition," inWCSP. IEEE, 2022,
-pp. 466--471.
+pp. 466--471. [paper]()
 
 \[108\] D. Wu, D. Zhang, C. Xu, Y . Wang, and H. Wang, "Widir: Walking
 direction estimation using wireless signals," inUBICOMP, 2016,
-pp. 351--362.
+pp. 351--362. [paper]()
 
 \[109\] H. Wang, D. Zhang, J. Ma, Y . Wang, Y . Wang, D. Wu, T. Gu, and
 B. Xie, "Human respiration detection with commodity wifi devices: Do
-user location and body orientation matter?" inUBICOMP, 2016, pp. 25--36.
+user location and body orientation matter?" inUBICOMP, 2016, pp. 25--36. [paper]()
 
 \[63\] Y . Qin, S. Sigg, S. Pan, and Z. Li, "Direction-agnostic gesture
 recog- nition system using commercial wifi devices,"Computer Communica-
-tions, vol. 216, pp. 34--44, 2024.
+tions, vol. 216, pp. 34--44, 2024. [paper]()
 
 \[110\] L. Zhang, C. Wang, M. Ma, and D. Zhang, "Widigr: Direction-
 independent gait recognition system using commercial wi-fi devices,"
-IoT-J, vol. 7, no. 2, pp. 1178--1191, 2019.
+IoT-J, vol. 7, no. 2, pp. 1178--1191, 2019. [paper]()
 
 \[111\] L. Zhang, C. Wang, and D. Zhang, "Wi-pigr: Path independent gait
 recognition with commodity wi-fi,"IEEE TMC, vol. 21, no. 9,
-pp. 3414--3427, 2021.
+pp. 3414--3427, 2021. [paper]()
 
 \[112\] F. Zhang, C. Wu, B. Wang, H.-Q. Lai, Y . Han, and K. R. Liu,
 "Widetect: Robust motion detection with a statistical electromagnetic
-model," IMWUT, vol. 3, no. 3, pp. 1--24, 2019.
+model," IMWUT, vol. 3, no. 3, pp. 1--24, 2019. [paper]()
 
 \[113\] G. Zhu, B. Wang, W. Gao, Y . Hu, C. Wu, and K. R. Liu,
 "Wifi-based robust human and non-human motion recognition with deep
-learning," inPerCom Workshops. IEEE, 2024, pp. 769--774.
+learning," inPerCom Workshops. IEEE, 2024, pp. 769--774. [paper]()
 
 ### Angle Indicators
 
 \[114\] Y . Li, T. Jiang, X. Ding, and Y . Wang, "Location-free csi
 based activity recognition with angle difference of arrival," inWCNC.
-IEEE, 2020, pp. 1--6.
+IEEE, 2020, pp. 1--6. [paper]()
 
 \[115\] Z. Han, Z. Lu, Z. Hu, Y . Chen, and X. Wen, "On
 position-independency passive gesture tracking with commodity
-wi-fi,"IEEE Sensors Journal, vol. 23, no. 14, pp. 16 264--16 275, 2023.
+wi-fi,"IEEE Sensors Journal, vol. 23, no. 14, pp. 16 264--16 275, 2023. [paper]()
 
 \[116\] Y . Ren and J. Yang, "Robust person identification: A wifi
-vision-based approach,"arXiv preprint arXiv:2210.00127, 2022.
+vision-based approach,"arXiv preprint arXiv:2210.00127, 2022. [paper]()
 
 
 > ### **Key Takeaways and Lessons Learned: Signal Preprocessing**
@@ -472,32 +475,32 @@ Fig 7: Domain alignment with domain discriminator or domain classifier. Both sou
 
 \[117\] Z. Wang, S. Chen, W. Yang, and Y . Xu, "Environment-independent
 wi-fi human activity recognition with adversarial network," inICASSP.
-IEEE, 2021, pp. 3330--3334.
+IEEE, 2021, pp. 3330--3334. [paper]()
 
 \[118\] L. Sheng, Y . Chen, S. Ning, S. Wang, B. Lian, and Z. Wei, "Da-
 har: Dual adversarial network for environment-independent wifi human
 activity recognition,"Pervasive and Mobile Computing, vol. 96,
-p. 101850, 2023.
+p. 101850, 2023. [paper]()
 
 \[119\] L. Zhang, W. Cui, B. Li, Z. Chen, M. Wu, and T. S. Gee,
 "Privacy- preserving cross-environment human activity recognition,"IEEE
-Trans- actions on Cybernetics, vol. 53, no. 3, pp. 1765--1775, 2021.
+Trans- actions on Cybernetics, vol. 53, no. 3, pp. 1765--1775, 2021. [paper]()
 
 \[120\] Z. Zhou, F. Wang, and W. Gong, "i-sample: Augment domain adver-
 sarial adaptation models for wifi-based har,"ACM ToSN, vol. 20, no. 2,
-pp. 1--20, 2024.
+pp. 1--20, 2024. [paper]()
 
 \[121\] H. Zou, J. Yang, Y . Zhou, and C. J. Spanos, "Joint adversarial
 domain adaptation for resilient wifi-enabled device-free gesture
-recognition," inICMLA. IEEE, 2018, pp. 202--207.
+recognition," inICMLA. IEEE, 2018, pp. 202--207. [paper]()
 
 \[122\] X. Li, L. Chang, F. Song, J. Wang, X. Chen, Z. Tang, and Z.
 Wang, "Crossgr: Accurate and low-cost cross-target gesture recognition
-using wi-fi,"IMWUT, vol. 5, no. 1, pp. 1--23, 2021.
+using wi-fi,"IMWUT, vol. 5, no. 1, pp. 1--23, 2021. [paper]()
 
 \[123\] H. Zhang, Z. Zhou, and W. Gong, "Wi-adaptor: Fine-grained domain
 adaptation in wifi-based activity recognition," inGLOBECOM. IEEE, 2021,
-pp. 1--6.
+pp. 1--6. [paper]()
 
 
 #### Domain Alignment with Domain Classifier
@@ -507,65 +510,65 @@ pp. 1--6.
 \[124\] W. Jiang, C. Miao, F. Ma, S. Yao, Y . Wang, Y . Yuan, H. Xue, C.
 Song, X. Ma, D. Koutsonikolas, W. Xu, and L. Su, "Towards environment
 independent device free human activity recognition," inMobiCom, 2018,
-pp. 289--304.
+pp. 289--304. [paper]()
 
 \[125\] A. Khattak and A. Khan, "Cross-location activity recognition
-using adversarial learning," inSOICT, 2022, pp. 59--65.
+using adversarial learning," inSOICT, 2022, pp. 59--65. [paper]()
 
 \[126\] F. Wang, J. Liu, and W. Gong, "Wicar: Wifi-based in-car activity
 recog- nition with multi-adversarial domain adaptation," inIWQoS, 2019,
 pp. 1--10.\[127\] X. Zhang, Y . Feng, J. Huang, H. Yan, P. Zhao, J. Liu,
 T. Liu, M. Li, Z. Liu, and B. Liu, "Objective gesture recognition based
-on wifi," Authorea Preprints, 2024.
+on wifi," Authorea Preprints, 2024. [paper]()
 
 \[128\] A. Zinys, B. van Berlo, and N. Meratnia, "A domain-independent
 generative adversarial network for activity recognition using wifi csi
-data,"Sensors, vol. 21, no. 23, p. 7852, 2021.
+data,"Sensors, vol. 21, no. 23, p. 7852, 2021. [paper]()
 
 \[129\] J. Strohmayer, R. Sterzinger, M. W ¨odlinger, and M. Kampel,
 "Datta: Domain-adversarial test-time adaptation for cross-domain
 wifi-based human activity recognition,"arXiv preprint arXiv:2411.13284,
-2024.
+2024. [paper]()
 
 \[130\] S. Liu, Z. Chen, M. Wu, C. Liu, and L. Chen, "Wisr: Wireless
-domain generalization based on style randomization,"IEEE TMC, 2023.
+domain generalization based on style randomization,"IEEE TMC, 2023. [paper]()
 
 \[93\] Y . Yin, Z. Zhang, X. Yang, F. Yan, and Q. Niu, "Towards fully
 domain- independent gesture recognition using cots wifi
-device,"Electronics Letters, vol. 57, no. 5, pp. 232--234, 2021.
+device,"Electronics Letters, vol. 57, no. 5, pp. 232--234, 2021. [paper]()
 
 \[131\] W. Yang, X. Jiawei, W. Ao, X. Huijuan, Z. Chuanxin, and J. Yimu,
 "Domain-generalization human activity recognition model based on csi
 instance normalization."Journal on Communication/Tongxin Xuebao,
-vol. 45, no. 6, 2024.
+vol. 45, no. 6, 2024. [paper]()
 
 \[64\] Y . Qin, S. Pan, and Z. Li, "Cross-domain extendable gesture
 recognition system using wifi signals,"Electronics Letters, vol. 59, no.
-16, p. e12931, 2023.
+16, p. e12931, 2023. [paper]()
 
 \[132\] B. v. Berlo, R. Verhoeven, and N. Meratnia, "Use of domain
 labels dur- ing pre-training for domain-independent wifi-csi gesture
-recognition," Sensors, vol. 23, no. 22, p. 9233, 2023.
+recognition," Sensors, vol. 23, no. 22, p. 9233, 2023. [paper]()
 
 \[133\] S. Zhou, L. Guo, Z. Lu, X. Wen, W. Zheng, and Y . Wang,
 "Subject- independent human pose image construction with commodity
-wi-fi," inIEEE ICC, 2021, pp. 1--6.
+wi-fi," inIEEE ICC, 2021, pp. 1--6. [paper]()
 
 \[134\] D. Yan, P. Yang, F. Shang, F. Han, Y . Yan, and X.-Y . Li,
 "freegait: Liberalizing wireless-based gait recognition to mitigate
-non-gait human behaviors," inMobiHoc, 2024, pp. 241--250.
+non-gait human behaviors," inMobiHoc, 2024, pp. 241--250. [paper]()
 
 \[135\] H. Li, X. Chen, J. Wang, D. Wu, and X. Liu, "Dafi: Wifi-based
 device- free indoor localization via domain adaptation,"IMWUT, vol. 5,
-no. 4, pp. 1--21, 2021.
+no. 4, pp. 1--21, 2021. [paper]()
 
 \[106\] C. Shi, J. Liu, N. Borodinov, B. Leao, and Y . Chen, "Towards
 environment-independent behavior-based user authentication using wifi,"
-inMASS. IEEE, 2020, pp. 666--674.
+inMASS. IEEE, 2020, pp. 666--674. [paper]()
 
 \[136\] X. Chen, H. Li, C. Zhou, X. Liu, D. Wu, and G. Dudek, "Fidora:
 Robust wifi-based indoor localization via unsupervised domain
-adaptation," IoT-J, vol. 9, no. 12, pp. 9872--9888, 2022.
+adaptation," IoT-J, vol. 9, no. 12, pp. 9872--9888, 2022. [paper]()
 
 
 #### Domain Alignment with Similarity Computing
@@ -576,78 +579,78 @@ Fig 8: Maximum Mean Discrepancy (MMD) quantifies the similarity between two prob
 
 \[137\] A. Gretton, K. Borgwardt, M. Rasch, B. Sch ¨olkopf, and A.
 Smola, "A kernel method for the two-sample-problem,"NeurIPS, vol. 19,
-2006.
+2006. [paper]()
 
 \[138\] Y . Zhou, J. Yang, H. Huang, and L. Xie, "Adapose: Towards
 cross-site device-free human pose estimation with commodity wifi,"IoT-J,
-2024.
+2024. [paper]()
 
 \[139\] X. Rao, L. Qin, Y . Yi, J. Liu, G. Lei, and Y . Cao, "A novel
 adaptive device-free passive indoor fingerprinting localization under
-dynamic environment,"IEEE TNSM, 2024.
+dynamic environment,"IEEE TNSM, 2024. [paper]()
 
 \[140\] H. Kang, Q. Zhang, and Q. Huang, "Context-aware wireless-based
 cross-domain gesture recognition,"IoT-J, vol. 8, no. 17, pp. 13 503-- 13
-515, 2021.
+515, 2021. [paper]()
 
 \[141\] Y . Liang, W. Wu, H. Li, F. Han, Z. Liu, P. Xu, X. Lian, and X.
 Chen, "Wiai-id: Wi-fi-based domain adaptation for appearance-independent
 passive person identification,"IoT-J, vol. 11, no. 1, pp. 1012--1027,
-2023.
+2023. [paper]()
 
 \[142\] S. Zhang, T. Jiang, X. Ding, X. Zhou, and Y . Zhong,
 "Device-free cross-environment human action recognition using wi-fi
 signals," in International Conference on Artificial Intelligence in
-China. Springer, 2023, pp. 141--151.
+China. Springer, 2023, pp. 141--151. [paper]()
 
 \[143\] S. Mehryar, "A domain adaptation framework for human activity
 monitoring using passive wi-fi sensing," inICCCMLA. IEEE, 2023,
-pp. 263--268.
+pp. 263--268. [paper]()
 
 \[144\] R. Zhou, H. Hou, Z. Gong, Z. Chen, K. Tang, and B. Zhou,
 "Adaptive device-free localization in dynamic environments through
 adaptive neural networks,"IEEE Sensors Journal, vol. 21, no. 1,
-pp. 548--559, 2020.
+pp. 548--559, 2020. [paper]()
 
 \[145\] Z. Xiao, S. Zhou, X. Wen, S. Ling, and X. Yang,
 "Pattern-independent human gait identification with commodity wifi,"
-inWCNC. IEEE, 2024, pp. 1--6.
+inWCNC. IEEE, 2024, pp. 1--6. [paper]()
 
 \[146\] G. Kang, L. Jiang, Y . Yang, and A. G. Hauptmann, "Contrastive
 adaptation network for unsupervised domain adaptation," inCVPR, 2019,
-pp. 4893--4902.
+pp. 4893--4902. [paper]()
 
 \[147\] W. Cui, K. Wu, M. Wu, X. Li, and Z. Chen, "Wicau: Comprehen-
 sive partial adaptation with uncertainty-aware for wifi-based cross-
-environment activity recognition,"IEEE TIM, vol. 73, pp. 1--10, 2024.
+environment activity recognition,"IEEE TIM, vol. 73, pp. 1--10, 2024. [paper]()
 
 \[148\] W. Jiao, C. Zhang, W. Du, and S. Ma, "Wisda: Subdomain
 adaptation human activity recognition method using wi-fi signals,"IEEE
-TMC, 2024.
+TMC, 2024. [paper]()
 
 \[149\] K. Gong, Y . Gao, and W. Dong, "Privacy-preserving and cross-
 domain human sensing by federated domain adaptation with semantic
-knowledge correction,"IMWUT, vol. 8, no. 1, pp. 1--26, 2024.
+knowledge correction,"IMWUT, vol. 8, no. 1, pp. 1--26, 2024. [paper]()
 
 \[150\] B. Sheng, R. Han, H. Cai, F. Xiao, L. Gui, and Z. Guo, "Cdfi:
-Cross- domain action recognition using wifi signals,"IEEE TMC, 2024.
+Cross- domain action recognition using wifi signals,"IEEE TMC, 2024. [paper]()
 
 \[96\] J. Chen, S. Bi, X.-H. Lin, and Z. Quan, "Lager: Label-free
 domain- adaptive wireless gesture recognition via latent feature
 alignment and augmentation,"IoT-J, vol. 11, no. 23, pp. 37 928--37 941,
-2024.
+2024. [paper]()
 
 \[151\] X. Zhan and Z. Wu, "Indoor positioning based on channel state
 information and deep learning domain adaptation," inICCAID, vol. 13105.
-SPIE, 2024, pp. 918--930.
+SPIE, 2024, pp. 918--930. [paper]()
 
 \[152\] D. Wang, J. Yang, W. Cui, L. Xie, and S. Sun, "Airfi: empowering
 wifi-based passive human gesture recognition to unseen environment via
-domain generalization,"IEEE TMC, vol. 23, no. 2, pp. 1156--1168, 2022.
+domain generalization,"IEEE TMC, vol. 23, no. 2, pp. 1156--1168, 2022. [paper]()
 
 \[153\] X. Ding, T. Jiang, Y . Li, W. Xue, and Y . Zhong, "Device-free
 location- independent human activity recognition using transfer learning
-based on cnn," inICC Workshops. IEEE, 2020, pp. 1--6.
+based on cnn," inICC Workshops. IEEE, 2020, pp. 1--6. [paper]()
 
 #### Domain Alignment with Generative Adversarial Networks
 ![fig9](https://github.com/user-attachments/assets/b0168d62-9452-4713-8d24-943fb51cb3a0)
@@ -657,72 +660,72 @@ Fig 9: Generative Adversarial Networks. Generator (G): The network responsible f
 
 \[154\] J. Zhang, Z. Chen, C. Luo, B. Wei, S. S. Kanhere, and J. Li,
 "Metaganfi: Cross-domain unseen individual identification using wifi
-signals,"IMWUT, vol. 6, no. 3, pp. 1--21, 2022.
+signals,"IMWUT, vol. 6, no. 3, pp. 1--21, 2022. [paper]()
 
 \[155\] H. Zhang, X. Chen, and S. Chen, "Cross-domain wi-fi sign
-language recognition with gans," inICCBN, 2022, pp. 60--65.
+language recognition with gans," inICCBN, 2022, pp. 60--65. [paper]()
 
 \[156\] Y . Mao, Z. Guo, B. Sheng, L. Gui, and F. Xiao, "Wi-cro:
 Wifi-based cross domain activity recognition via modified gan,"IEEE TVT,
-2024.
+2024. [paper]()
 
 \[157\] C. Xiao, Y . Lei, C. Liu, and J. Wu, "Mean teacher-based
 cross-domain activity recognition using wifi signals,"IoT-J, vol. 10,
-no. 14, pp. 12 787--12 797, 2023.
+no. 14, pp. 12 787--12 797, 2023. [paper]()
 
 #### Domain Alignment with Multi-task Learning
 \[158\] J. Zhang, Z. Tang, M. Li, D. Fang, P. Nurmi, and Z. Wang,
 "Crosssense: Towards cross-site and large-scale wifi sensing,"
-inMobiCom, 2018, pp. 305--320.
+inMobiCom, 2018, pp. 305--320. [paper]()
 
 \[159\] Y . Sugimoto, H. Rizk, A. Uchiyama, and H. Yamaguchi, "Towards
 environment-independent activity recognition using wi-fi csi with an
-encoder-decoder network," inBodySys, 2023, pp. 13--18.
+encoder-decoder network," inBodySys, 2023, pp. 13--18. [paper]()
 
 \[160\] Y . Zhang, A. Cheng, B. Chen, Y . Wang, and L. Jia, "A location-
 independent human activity recognition method based on csi: System,
-architecture, implementation,"IEEE TMC, 2023.
+architecture, implementation,"IEEE TMC, 2023. [paper]()
 
 #### Domain Alignment with Cross-modal Embedding
 \[161\] M. T. Islam and S. Nirjon, "Wi-fringe: Leveraging text semantics
 in wifi csi-based device-free named gesture recognition," inDCOSS. IEEE,
-2020, pp. 35--42.
+2020, pp. 35--42. [paper]()
 
 \[70\] F. Wang, Y . Lv, M. Zhu, H. Ding, and J. Han, "Xrf55: A radio
 frequency dataset for human indoor action analysis,"IMWUT, vol. 8, no.
-1, pp. 1--34, 2024.
+1, pp. 1--34, 2024. [paper]()
 
 \[162\] H. Zhang, Y . Ren, H. Yuan, J. Zhang, and Y . Shen, "Wi-chat:
 Large lan- guage model powered wi-fi sensing,"arXiv preprint
-arXiv:2502.12421, 2025.
+arXiv:2502.12421, 2025. [paper]()
 
 \[163\] I. Nirmal, A. Khamis, M. Hassan, W. Hu, R. Li, and A.
 Kalyanaraman, "Wifi2radar: Orientation-independent single-receiver wifi
 sensing via wifi to radar translation,"IoT-J, vol. 11, no. 9, pp. 15
-750--15 766, 2024.
+750--15 766, 2024. [paper]()
 
 
 ### Component Disentangle
 \[164\] I. Elujide, C. Feng, A. Shiran, J. Li, and Y . Liu, "Location
 indepen- dent gesture recognition using channel state information,"
 inAnnual Consumer Communications & Networking Conference. IEEE, 2022,
-pp. 841--846.
+pp. 841--846. [paper]()
 
 \[165\] Y .-J. Chen, W. Chen, S. Q. Zhang, H.-Y . Huang, and H. Kung, "A
 task- oriented deep learning approach for human localization,"IEEE TCDS,
-2024.
+2024. [paper]()
 
 \[45\] F. Wang, S. Zhou, S. Panev, J. Han, and D. Huang,
 "Person-in-wifi: Fine-grained person perception using wifi," inICCV,
-2019, pp. 5452-- 5461.
+2019, pp. 5452-- 5461. [paper]()
 
 \[166\] Z. Hao, J. Niu, X.-c. Dang, and Z. Qiao, "Wi-piga: A personnel-
 independentmethod for actions recognition based on wi-fi," inBigCom.
-IEEE, 2021, pp. 52--59.
+IEEE, 2021, pp. 52--59. [paper]()
 
 \[167\] B. Wu, T. Jiang, J. Yu, X. Ding, S. Wu, and Y . Zhong,
 "Device-free human activity recognition with identity-based transfer
-mechanism," in WCNC. IEEE, 2021, pp. 1--6.
+mechanism," in WCNC. IEEE, 2021, pp. 1--6. [paper]()
 
 
 ### Metric Learning for Zero/Few-shot Learning
@@ -737,49 +740,49 @@ Fig 10: Triplet loss aims to structure the feature space such that samples from 
 
 \[167\] B. Wu, T. Jiang, J. Yu, X. Ding, S. Wu, and Y . Zhong,
 "Device-free human activity recognition with identity-based transfer
-mechanism," in WCNC. IEEE, 2021, pp. 1--6.
+mechanism," in WCNC. IEEE, 2021, pp. 1--6. [paper]()
 
 \[168\] Q. Zhou, Q. Yang, and J. Xing, "Enabling efficient wifi-based
 occupant behavior recognition using insufficient samples,"Building and
-Environ- ment, vol. 212, p. 108806, 2022.
+Environ- ment, vol. 212, p. 108806, 2022. [paper]()
 
 \[169\] Z. Wei, W. Chen, W. Tao, S. Ning, B. Lian, X. Sun, and J. Zhao,
 "Catfsid: A few-shot human identification system based on cross- domain
 adversarial training,"Computer Communications, vol. 224, pp. 275--284,
-2024.
+2024. [paper]()
 
 \[170\] Q. Bu, X. Ming, J. Hu, T. Zhang, J. Feng, and J. Zhang,
 "Transfersense: towards environment independent and one-shot wifi
-sensing,"Personal and Ubiquitous Computing, pp. 1--19, 2022.
+sensing,"Personal and Ubiquitous Computing, pp. 1--19, 2022. [paper]()
 
 \[171\] Y . Liu, A. Yu, L. Wang, B. Guo, Y . Li, E. Yi, and D. Zhang,
 "Unifi: A unified framework for generalizable gesture recognition with
 wi-fi signals using consistency-guided multi-view networks,"IMWUT,
-vol. 7, no. 4, pp. 1--29, 2024.
+vol. 7, no. 4, pp. 1--29, 2024. [paper]()
 
 \[172\] X. Zhang, J. Huang, H. Yan, P. Zhao, G. Zhuang, Z. Liu, and B.
 Liu, "Wiopen: A robust wi-fi-based open-set gesture recognition
-framework,"arXiv preprint arXiv:2402.00822, 2024.
+framework,"arXiv preprint arXiv:2402.00822, 2024. [paper]()
 
 \[173\] Z. Wu, A. A. Efros, and S. X. Yu, "Improving generalization via
-scalable neighborhood component analysis," inECCV, 2018, pp. 685-- 701.
+scalable neighborhood component analysis," inECCV, 2018, pp. 685-- 701. [paper]()
 
 \[174\] C. Xiao, S. Chen, F. Zhou, and J. Wu, "Self-supervised few-shot
 time-series segmentation for activity recognition,"IEEE TMC, vol. 22,
-no. 11, pp. 6770--6783, 2022.
+no. 11, pp. 6770--6783, 2022. [paper]()
 
 #### Learning with Contrastive Learning
 \[175\] K. Xu, J. Wang, L. Zhang, H. Zhu, and D. Zheng, "Dual-stream
 contrastive learning for channel state information based human activity
-recognition,"JBHI, vol. 27, no. 1, pp. 329--338, 2022.
+recognition,"JBHI, vol. 27, no. 1, pp. 329--338, 2022. [paper]()
 
 \[176\] Y . Wang, G. Yu, Y . Zhang, D. Liu, and Y . Zhang, "Csi-based
 location- independent human activity recognition by contrast between
-dual stream fusion features,"IEEE Sensors Journal, 2024.
+dual stream fusion features,"IEEE Sensors Journal, 2024. [paper]()
 
 \[177\] C. Xiao,
 Y . Han, W. Yang, Y . Hou, F. Shi, and K. Chetty, "Diffusion model-based
-contrastive learning for human activity recognition,"IoT- J, 2024.
+contrastive learning for human activity recognition,"IoT- J, 2024. [paper]()
 
 #### Metric Learning with Siamese Neural Networks
 <img width="1020" height="526" alt="image" src="https://github.com/user-attachments/assets/7d6f4e5b-27e9-43b9-99a0-ea41cdae5b2d" />
@@ -787,15 +790,15 @@ contrastive learning for human activity recognition,"IoT- J, 2024.
 Fig 11: Siamese Neural Networks. (1) The network takes a pair of inputs (e.g., two CSI segments) and feeds them into two identical sub-networks. Both branches share the same parameters (weights), mapping the inputs into a common low-dimensional feature space. (2) The model computes a similarity metric (usually Euclidean distance or Cosine similarity) between the two generated feature vectors. (3) Based on the distance, the system determines whether the two inputs belong to the same class (small distance) or different classes (large distance), often using a contrastive loss function.
 
 \[116\] Y . Ren and J. Yang, "Robust person identification: A wifi
-vision-based approach,"arXiv preprint arXiv:2210.00127, 2022.
+vision-based approach,"arXiv preprint arXiv:2210.00127, 2022. [paper]()
 
 \[178\] Y . Liang, H. Li, W. Wu, and P. Xu, "Map-sgan: Multi-anchor
 point siamese gan for wi-fi csi-based cross-domain gait
-recognition,"ESWA, vol. 251, p. 124083, 2024.
+recognition,"ESWA, vol. 251, p. 124083, 2024. [paper]()
 
 \[179\] Z. Zhao, T. Chen, Z. Cai, X. Li, H. Li, Q. Chen, and G. Zhu,
 "Crossfi: A cross domain wi-fi sensing framework based on siamese
-network," arXiv preprint arXiv:2408.10919, 2024.
+network," arXiv preprint arXiv:2408.10919, 2024. [paper]()
 
 
 #### Metric Learning with Relation Network
@@ -807,21 +810,21 @@ Fig 12: Relation Network. (1) Both the support set and the query sample are pass
 \[180\] J. Wang, Q. Gao, X. Ma, Y . Zhao, and Y . Fang, "Learning to
 sense: Deep learning for wireless sensing with less training
 efforts,"IEEE Wireless Communications, vol. 27, no. 3, pp. 156--162,
-2020.
+2020. [paper]()
 
 \[181\] P. Hu, C. Tang, K. Yin, and X. Zhang, "Wigr: a practical wi-fi-
 based gesture recognition system with a lightweight few-shot network,"
-Applied Sciences, vol. 11, no. 8, p. 3329, 2021.
+Applied Sciences, vol. 11, no. 8, p. 3329, 2021. [paper]()
 
 \[182\] L. Zhang, S. Wu, T. Zhang, and Q. Zhang, "Learning to locate:
 Adaptive fingerprint-based localization with few-shot relation learning
 in dynamic indoor environments,"IEEE TWC, vol. 22, no. 8, pp. 5253--
-5264, 2023.
+5264, 2023. [paper]()
 
 \[183\] R. Zhang, C. Jiang, S. Wu, Q. Zhou, X. Jing, and J. Mu, "Wi-fi
 sensing for joint gesture recognition and human identification from few
 samples in human-computer interaction,"IEEE JASAC, vol. 40, no. 7,
-pp. 2193-- 2205, 2022.
+pp. 2193-- 2205, 2022. [paper]()
 
 #### Metric Learning with Matching Network
 
@@ -834,20 +837,20 @@ Fig 13: Matching Network. (1) Both the small support set and the query sample ar
 
 \[184\] Z. Shi, Q. Cheng, J. A. Zhang, and R. Y . Da Xu,
 "Environment-robust wifi-based human activity recognition using enhanced
-csi and deep learning,"IoT-J, vol. 9, no. 24, pp. 24 643--24 654, 2022.
+csi and deep learning,"IoT-J, vol. 9, no. 24, pp. 24 643--24 654, 2022. [paper]()
 
 \[185\] Z. Shi, J. A. Zhang, R. Xu, Q. Cheng, and A. Pearce, "Towards
 environment-independent human activity recognition using deep learn- ing
-and enhanced csi," inIEEE GLOBECOM. IEEE, 2020, pp. 1--6.
+and enhanced csi," inIEEE GLOBECOM. IEEE, 2020, pp. 1--6. [paper]()
 
 \[186\] Z. Shi, J. A. Zhang, R. Y . Xu, and Q. Cheng,
 "Environment-robust device-free human activity recognition with
 channel-state-information enhancement and one-shot learning,"IEEE TMC,
-vol. 21, no. 2, pp. 540--554, 2020.
+vol. 21, no. 2, pp. 540--554, 2020. [paper]()
 
 \[188\] X. Ding, T. Jiang, Y . Zhong, Y . Huang, and Z. Li, "Wi-fi-based
 location-independent human activity recognition via meta learning,"
-Sensors, vol. 21, no. 8, p. 2654, 2021.
+Sensors, vol. 21, no. 8, p. 2654, 2021. [paper]()
 
 #### Metric Learning with Prototypical Network
 
@@ -858,33 +861,33 @@ Fig 14: Prototypical Network. (1) For each class in the support set, the model c
 
 \[66\] N. Bahadori, J. Ashdown, and F. Restuccia, "Rewis: Reliable wi-fi
 sensing through few-shot multi-antenna multi-receiver csi learning," in
-WoWMoM. IEEE, 2022, pp. 50--59.
+WoWMoM. IEEE, 2022, pp. 50--59. [paper]()
 
 \[189\] X. Ding, T. Jiang, Y . Zhong, J. Yang, Y . Huang, and Z. Li,
 "Device-free location-independent human activity recognition via
-few-shot learning," inIEEE/CIC ICC in China, 2021, pp. 106--111.
+few-shot learning," inIEEE/CIC ICC in China, 2021, pp. 106--111. [paper]()
 
 \[190\] Y . Gu, H. Yan, M. Dong, M. Wang, X. Zhang, Z. Liu, and F. Ren,
 "Wione: one-shot learning for environment-robust device-free user
 authentication via commodity wi-fi in man--machine system,"IEEE
 Transactions on Computational Social Systems, vol. 8, no. 3, pp. 630--
-642, 2021.
+642, 2021. [paper]()
 
 \[191\] D. Wang, J. Yang, W. Cui, L. Xie, and S. Sun, "Caution: A robust
 wifi- based human authentication system via few-shot open-set
-recognition," IoT-J, vol. 9, no. 18, pp. 17 323--17 333, 2022.
+recognition," IoT-J, vol. 9, no. 18, pp. 17 323--17 333, 2022. [paper]()
 
 \[192\] B. Yang, H. Wang, L. Hu, H. Zhu, C.-T. Lam, and K. Fang,
 "Few-shot cross-domain based wifi sensing system for online learning in
-iot," IEEE Sensors Journal, 2023.
+iot," IEEE Sensors Journal, 2023. [paper]()
 
 \[187\] T. Zhao, N. Wang, G. Cao, S. Mao, and X. Wang, "Functional data
 analysis assisted cross-domain wi-fi sensing using few-shot learning,"
-inIEEE ICC. IEEE, 2024, pp. 4780--4785.
+inIEEE ICC. IEEE, 2024, pp. 4780--4785. [paper]()
 
 \[193\] X. Zhang, C. Tang, K. Yin, and Q. Ni, "Wifi-based cross-domain
 gesture recognition via modified prototypical networks,"IoT-J, vol. 9,
-no. 11, pp. 8584--8596, 2021.
+no. 11, pp. 8584--8596, 2021. [paper]()
 
 ### Meta Learning for Few-shot Learning
 
@@ -894,186 +897,186 @@ Fig 15: Model-Agnostic Meta-Learning (MAML) includes a meta-training stage and a
 
 \[194\] C. Finn, P. Abbeel, and S. Levine, "Model-agnostic meta-learning
 for fast adaptation of deep networks," inICML. PMLR, 2017, pp. 1126--
-1135.
+1135. [paper]()
 
 \[195\] S. Huang, Y . Chen, D. Wu, G. Yu, and Y . Zhang, "Few-shot
 learning for human activity recognition based on csi," inCACML. IEEE,
-2022, pp. 403--409.
+2022, pp. 403--409. [paper]()
 
 \[196\] Z. Zhou, F. Wang, J. Yu, J. Ren, Z. Wang, and W. Gong, "Target-
 oriented semi-supervised domain adaptation for wifi-based har," in IEEE
-INFOCOM. IEEE, 2022, pp. 420--429.
+INFOCOM. IEEE, 2022, pp. 420--429. [paper]()
 
 \[197\] J. Gao, D. Wu, F. Yin, Q. Kong, L. Xu, and S. Cui, "Metaloc:
-Learning to learn wireless localization,"IEEE JASAC, 2023.
+Learning to learn wireless localization,"IEEE JASAC, 2023. [paper]()
 
 \[92\] L. Zhao, R. Xiao, J. Liu, and J. Han, "One is enough: Enabling
 one-shot device-free gesture recognition with cots wifi," inINFOCOM.
-IEEE, 2024, pp. 1231--1240.
+IEEE, 2024, pp. 1231--1240. [paper]()
 
 \[94\] C. Feng, N. Wang, Y . Jiang, X. Zheng, K. Li, Z. Wang, and X.
 Chen, "Wi-learner: Towards one-shot learning for cross-domain wi-fi
-based gesture recognition,"IMWUT, vol. 6, no. 3, pp. 1--27, 2022.
+based gesture recognition,"IMWUT, vol. 6, no. 3, pp. 1--27, 2022. [paper]()
 
 \[198\] B. Sheng, R. Han, F. Xiao, Z. Guo, and L. Gui, "Metaformer:
 Domain- adaptive wifi sensing with only one labelled target
-sample,"IMWUT, vol. 8, no. 1, pp. 1--27, 2024.
+sample,"IMWUT, vol. 8, no. 1, pp. 1--27, 2024. [paper]()
 
 \[199\] S. Ding, Z. Chen, T. Zheng, and J. Luo, "Rf-net: A unified meta-
 learning framework for rf-enabled one-shot human activity recogni-
-tion," inSenSys, 2020, pp. 517--530.
+tion," inSenSys, 2020, pp. 517--530. [paper]()
 
 \[154\] J. Zhang, Z. Chen, C. Luo, B. Wei, S. S. Kanhere, and J. Li,
 "Metaganfi: Cross-domain unseen individual identification using wifi
-signals,"IMWUT, vol. 6, no. 3, pp. 1--21, 2022.
+signals,"IMWUT, vol. 6, no. 3, pp. 1--21, 2022. [paper]()
 
 \[200\] Z. Gao, J. Xue, J. Zhang, and W. Xiao, "Ml-wigr: A
 meta-learning- based approach for cross-domain device-free gesture
-recognition,"Soft Computing, vol. 26, no. 13, pp. 6145--6155, 2022.
+recognition,"Soft Computing, vol. 26, no. 13, pp. 6145--6155, 2022. [paper]()
 
 ### Data Augmentationand Data Synthesize
 \[122\] X. Li, L. Chang, F. Song, J. Wang, X. Chen, Z. Tang, and Z.
 Wang, "Crossgr: Accurate and low-cost cross-target gesture recognition
-using wi-fi,"IMWUT, vol. 5, no. 1, pp. 1--23, 2021.
+using wi-fi,"IMWUT, vol. 5, no. 1, pp. 1--23, 2021. [paper]()
 
 \[180\] J. Wang, Q. Gao, X. Ma, Y . Zhao, and Y . Fang, "Learning to
 sense: Deep learning for wireless sensing with less training
 efforts,"IEEE Wireless Communications, vol. 27, no. 3, pp. 156--162,
-2020.
+2020. [paper]()
 
 \[201\] Y . Zhang, X. Wang, Y . Wang, and H. Chen, "Human activity
-recogni- tion across scenes and categories based on csi,"IEEE TMC, 2020.
+recogni- tion across scenes and categories based on csi,"IEEE TMC, 2020. [paper]()
 
 \[202\] J. Zhang, Y . Dai, J. Chen, C. Luo, B. Wei, V . C. Leung, and J.
 Li, "Sida: Self-supervised imbalanced domain adaptation for sound
 enhancement and cross-domain wifi sensing,"IMWUT, vol. 7, no. 3,
-pp. 1--24, 2023.
+pp. 1--24, 2023. [paper]()
 
 \[203\] T. Huang, S. Wang, and S. Li, "Low-cost and user independent
-action recognition using wifi signals,"Available at SSRN 4160593.
+action recognition using wifi signals,"Available at SSRN 4160593. [paper]()
 
 \[182\] L. Zhang, S. Wu, T. Zhang, and Q. Zhang, "Learning to locate:
 Adaptive fingerprint-based localization with few-shot relation learning
 in dynamic indoor environments,"IEEE TWC, vol. 22, no. 8, pp. 5253--
-5264, 2023.
+5264, 2023. [paper]()
 
 \[204\] Y . Wang, L. Yao, Y . Wang, and Y . Zhang, "Robust csi-based
 human activity recognition with augment few shot learning,"IEEE Sensors
-Journal, vol. 21, no. 21, pp. 24 297--24 308, 2021.
+Journal, vol. 21, no. 21, pp. 24 297--24 308, 2021. [paper]()
 
 \[205\] L. Zhang, Y . Jiang, Y . Ma, S. Mao, W. Huang, Z. Yu, X. Zheng,
 L. Shu, X. Fan, and G. Xu, "Toward robust and effective behavior based
-user authentication with off-the-shelf wi-fi,"IEEE TIFS, 2024.
+user authentication with off-the-shelf wi-fi,"IEEE TIFS, 2024. [paper]()
 
 \[136\] X. Chen, H. Li, C. Zhou, X. Liu, D. Wu, and G. Dudek, "Fidora:
 Robust wifi-based indoor localization via unsupervised domain
-adaptation," IoT-J, vol. 9, no. 12, pp. 9872--9888, 2022.
+adaptation," IoT-J, vol. 9, no. 12, pp. 9872--9888, 2022. [paper]()
 
 \[206\] C. Xiao, D. Han, Y . Ma, and Z. Qin, "Csigan: Robust channel
 state information-based activity recognition with gans,"IoT-J, vol. 6,
-no. 6, pp. 10 191--10 204, 2019.
+no. 6, pp. 10 191--10 204, 2019. [paper]()
 
 \[207\] X. Chen, H. Li, C. Zhou, X. Liu, D. Wu, and G. Dudek, "Fido:
 Ubiquitous fine-grained wifi-based localization for unlabelled users via
 domain adaptation," inProceedings of The Web Conference, 2020,
-pp. 23--33.
+pp. 23--33. [paper]()
 
 \[134\] D. Yan, P. Yang, F. Shang, F. Han, Y . Yan, and X.-Y . Li,
 "freegait: Liberalizing wireless-based gait recognition to mitigate
-non-gait human behaviors," inMobiHoc, 2024, pp. 241--250.
+non-gait human behaviors," inMobiHoc, 2024, pp. 241--250. [paper]()
 
 \[177\] C. Xiao,
 Y . Han, W. Yang, Y . Hou, F. Shi, and K. Chetty, "Diffusion model-based
-contrastive learning for human activity recognition,"IoT- J, 2024.
+contrastive learning for human activity recognition,"IoT- J, 2024. [paper]()
 
 \[208\] D. Yan, F. Shang, P. Yang, F. Han, Y . Yan, and X.-Y . Li,
 "freeloc: Wireless-based cross-domain device-free fingerprints
 localization to free user's motions,"IoT-J, vol. 11, no. 14, pp. 25
-099--25 110, 2024.
+099--25 110, 2024. [paper]()
 
 \[209\] B. Zhou, R. Zhou, Y . Luo, and Y . Cheng, "Towards cross domain
 csi action recognition through one-shot bimodal domain adaptation," in
-MobiQuitous. Springer, 2022, pp. 290--309.
+MobiQuitous. Springer, 2022, pp. 290--309. [paper]()
 
 \[210\] F. Wang, J. Han, S. Zhang, X. He, and D. Huang, "Csi-net:
 Unified human body characterization and pose recognition,"arXiv preprint
-arXiv:1810.03064, 2018.
+arXiv:1810.03064, 2018. [paper]()
 
 \[211\] B. Lan, F. Wang, L. Xia, F. Nai, S. Nie, H. Ding, and J. Han,
 "Bullydetect: Detecting school physical bullying with wi-fi and deep
-wavelet transformer,"IoT-J, 2024.
+wavelet transformer,"IoT-J, 2024. [paper]()
 
 \[212\] H. He, X. Huan, J. Wang, Y . Luo, H. Hu, and J. An, "P3id: A
 privacy- preserving person identification framework towards
 multi-environments based on transfer learning,"IEEE TMC, pp. 1--16,
-2024.
+2024. [paper]()
 
 \[213\] H. Liu, L. Xi, W. Wang, F. Zhang, and Z. J. Haas, "Openfi:
 Open-set wifi human sensing via virtual embedding confidence-aware,"IEEE
-TNSE, pp. 1--12, 2024.
+TNSE, pp. 1--12, 2024. [paper]()
 
 \[152\] D. Wang, J. Yang, W. Cui, L. Xie, and S. Sun, "Airfi: empowering
 wifi-based passive human gesture recognition to unseen environment via
-domain generalization,"IEEE TMC, vol. 23, no. 2, pp. 1156--1168, 2022.
+domain generalization,"IEEE TMC, vol. 23, no. 2, pp. 1156--1168, 2022. [paper]()
 
 \[214\] T. DeVries and G. W. Taylor, "Improved regularization of
 convolutional neural networks with cutout,"arXiv preprint
-arXiv:1708.04552, 2017.
+arXiv:1708.04552, 2017. [paper]()
 
 \[215\] W. Hou and C. Wu, "Rfboost: Understanding and boosting deep wifi
 sensing via physical data augmentation,"IMWUT, vol. 8, no. 2, pp. 1--26,
-2024.
+2024. [paper]()
 
 \[216\] S. Liu, Z. Chen, M. Wu, H. Wang, B. Xing, and L. Chen,
 "Generalizing wireless cross-multiple-factor gesture recognition to
-unseen domains," IEEE TMC, 2023.
+unseen domains," IEEE TMC, 2023. [paper]()
 
 \[156\] Y . Mao, Z. Guo, B. Sheng, L. Gui, and F. Xiao, "Wi-cro:
 Wifi-based cross domain activity recognition via modified gan,"IEEE TVT,
-2024.
+2024. [paper]()
 
 \[217\] A. Virmani and M. Shahzad, "Position and orientation agnostic
-gesture recognition using wifi," inMobiSys, 2017, pp. 252--264.
+gesture recognition using wifi," inMobiSys, 2017, pp. 252--264. [paper]()
 
 \[174\] C. Xiao, S. Chen, F. Zhou, and J. Wu, "Self-supervised few-shot
 time-series segmentation for activity recognition,"IEEE TMC, vol. 22,
-no. 11, pp. 6770--6783, 2022.
+no. 11, pp. 6770--6783, 2022. [paper]()
 
 \[68\] R. Xiao, J. Liu, J. Han, and K. Ren, "Onefi: One-shot recognition
-for unseen gesture via cots wifi," inSenSys, 2021, pp. 206--219.
+for unseen gesture via cots wifi," inSenSys, 2021, pp. 206--219. [paper]()
 
 \[92\] L. Zhao, R. Xiao, J. Liu, and J. Han, "One is enough: Enabling
 one-shot device-free gesture recognition with cots wifi," inINFOCOM.
-IEEE, 2024, pp. 1231--1240.
+IEEE, 2024, pp. 1231--1240. [paper]()
 
 \[218\] S. Wang, L. Wang, and W. Liu, "Feature decoupling and
 regeneration towards wifi-based human activity recognition,"Pattern
-Recognition, vol. 153, p. 110480, 2024.
+Recognition, vol. 153, p. 110480, 2024. [paper]()
 
 
 ### Pseudo Labeling
 \[75\] R. Zhou, Z. Gong, K. Tang, B. Zhou, and Y . Cheng, "Device-free
 cross location activity recognition via semi-supervised deep
 learning,"Neural Computing and Applications, vol. 34, no. 12, pp. 10
-189--10 203, 2022.
+189--10 203, 2022. [paper]()
 
 \[96\] J. Chen, S. Bi, X.-H. Lin, and Z. Quan, "Lager: Label-free
 domain- adaptive wireless gesture recognition via latent feature
 alignment and augmentation,"IoT-J, vol. 11, no. 23, pp. 37 928--37 941,
-2024.
+2024. [paper]()
 
 \[219\] B.-B. Zhang, D. Zhang, Y . Li, Y . Hu, and Y . Chen,
 "Unsupervised domain adaptation for rf-based gesture recognition,"IoT-J,
-vol. 10, no. 23, pp. 21 026--21 038, 2023.
+vol. 10, no. 23, pp. 21 026--21 038, 2023. [paper]()
 
 \[118\] L. Sheng, Y . Chen, S. Ning, S. Wang, B. Lian, and Z. Wei, "Da-
 har: Dual adversarial network for environment-independent wifi human
 activity recognition,"Pervasive and Mobile Computing, vol. 96,
-p. 101850, 2023.
+p. 101850, 2023. [paper]()
 
 \[100\] B.-B. Zhang, D. Zhang, Y . Hu, and Y . Chen, "Unsupervised
 domain adaptation for wifi gesture recognition," inWCNC. IEEE, 2023,
-pp. 1--6.
+pp. 1--6. [paper]()
 
 
 > ### **Key Takeaways and Lessons Learned: Feature Learning**
@@ -1116,120 +1119,120 @@ Table V: Comparison of Model Deployment Strategies in Wi-Fi Sensing.
 ### Transfer Learning
 \[70\] F. Wang, Y . Lv, M. Zhu, H. Ding, and J. Han, "Xrf55: A radio
 frequency dataset for human indoor action analysis,"IMWUT, vol. 8, no.
-1, pp. 1--34, 2024.
+1, pp. 1--34, 2024. [paper]()
 
 \[210\] F. Wang, J. Han, S. Zhang, X. He, and D. Huang, "Csi-net:
 Unified human body characterization and pose recognition,"arXiv preprint
-arXiv:1810.03064, 2018.
+arXiv:1810.03064, 2018. [paper]()
 
 \[153\] X. Ding, T. Jiang, Y . Li, W. Xue, and Y . Zhong, "Device-free
 location- independent human activity recognition using transfer learning
-based on cnn," inICC Workshops. IEEE, 2020, pp. 1--6.
+based on cnn," inICC Workshops. IEEE, 2020, pp. 1--6. [paper]()
 
 \[220\] Y .-S. Chen, Y .-C. Chang, and C.-Y . Li, "A semi-supervised
 transfer learning with dynamic associate domain adaptation for human
 activity recognition using wifi signals,"Sensors, vol. 21, no. 24,
-p. 8475, 2021.
+p. 8475, 2021. [paper]()
 
 \[221\] J. K. Brinke and N. Meratnia, "Scaling activity recognition
 using channel state information through convolutional neural networks
 and transfer learning," inProceedings of the International Workshop on
 Challenges in Artificial Intelligence and Machine Learning for Internet
-of Things, 2019, pp. 56--62.
+of Things, 2019, pp. 56--62. [paper]()
 
 \[222\] Y . Fang, B. Sheng, H. Wang, and F. Xiao, "Witransfer: A
 cross-scene transfer activity recognition system using wifi," inTURC,
-2020, pp. 59--63.
+2020, pp. 59--63. [paper]()
 
 \[223\] G. Yin, J. Zhang, G. Shen, and Y . Chen, "Fewsense, towards a
 scalable and cross-domain wi-fi sensing system using few-shot
-learning,"IEEE TMC, vol. 23, no. 1, pp. 453--468, 2022.
+learning,"IEEE TMC, vol. 23, no. 1, pp. 453--468, 2022. [paper]()
 
 \[224\] L. Zheng, S. Bi, S. Wang, Z. Quan, X. Li, X. Lin, and H. Wang,
 "Resmon: Domain-adaptive wireless respiration state monitoring via
 few-shot bayesian deep learning,"IoT-J, vol. 10, no. 23, pp. 20 914-- 20
-927, 2023.
+927, 2023. [paper]()
 
 \[225\] S. Bi, X. Chen, L. Zheng, H. Hou, and X. Lin, "Roger: Few-shot
 learning based robust gesture recognition with multi-modal wi-fi csi
 measurements," inICMLCN. IEEE, 2024, pp. 517--522.\[226\] H. Hou, S. Bi,
 L. Zheng, X. Lin, and Z. Quan, "Sample-efficient cross- domain wifi
 indoor crowd counting via few-shot learning," inWOCC. IEEE, 2022,
-pp. 132--137.
+pp. 132--137. [paper]()
 
 \[227\] H. Hou, S. Bi, L. Zheng, X. Lin, Y . Wu, and Z. Quan,
 "Dasecount: Domain-agnostic sample-efficient wireless indoor crowd
 counting via few-shot learning,"IoT-J, vol. 10, no. 8, pp. 7038--7050,
-2022.
+2022. [paper]()
 
 ### Federated Learning
 \[228\] S. M. Hernandez and E. Bulut, "Wifederated: Scalable wifi
 sensing using edge-based federated learning,"IoT-J, vol. 9, no. 14,
-pp. 12 628-- 12 640, 2021.
+pp. 12 628-- 12 640, 2021. [paper]()
 
 \[229\] H. Geng, D. Deng, W. Zhang, P. Ji, and X. Wu, "Personalized
 federated learning based on bidirectional knowledge distillation for
-wifi gesture recognition,"Electronics, vol. 12, no. 24, p. 5016, 2023.
+wifi gesture recognition,"Electronics, vol. 12, no. 24, p. 5016, 2023. [paper]()
 
 \[230\] X. Li, F. Song, M. Luo, K. Li, L. Chang, X. Chen, and Z. Wang,
 "Towards collaborative and cross-domain wi-fi sensing: A case study for
 human activity recognition,"IEEE TMC, vol. 23, no. 2, pp. 1674-- 1688,
-2023.
+2023. [paper]()
 
 \[231\] W. Qi, R. Zhang, J. Zhou, H. Zhang, Y . Xie, and X. Jing, "A
 resource-efficient cross-domain sensing method for device-free gesture
 recognition with federated transfer learning,"IEEE TGCN, vol. 7, no. 1,
-pp. 393--400, 2023.
+pp. 393--400, 2023. [paper]()
 
 \[232\] S. Zhang, T. Jiang, X. Ding, Y . Zhong, and H. Jia, "A
 cloud-edge col- laborative framework for cross-environment human action
-recognition based on wi-fi," inIEEE/CIC ICC in China, 2023, pp. 1--6.
+recognition based on wi-fi," inIEEE/CIC ICC in China, 2023, pp. 1--6. [paper]()
 
 \[119\] L. Zhang, W. Cui, B. Li, Z. Chen, M. Wu, and T. S. Gee,
 "Privacy- preserving cross-environment human activity recognition,"IEEE
-Trans- actions on Cybernetics, vol. 53, no. 3, pp. 1765--1775, 2021.
+Trans- actions on Cybernetics, vol. 53, no. 3, pp. 1765--1775, 2021. [paper]()
 
 \[233\] N. Zheng, Y . Li, S. Jiang, Y . Li, R. Yao, C. Dong, T. Chen, Y
 . Yang, Z. Yin, and Y . Liu, "Adawifi, collaborative wifi sensing for
-cross- environment adaptation,"IEEE TMC, pp. 1--15, 2024.
+cross- environment adaptation,"IEEE TMC, pp. 1--15, 2024. [paper]()
 
 \[234\] J. Zhang, Y . Li, Q. Li, and W. Xiao, "Variance-constrained
 local--global modeling for device-free localization under
-uncertainties,"IEEE TII, 2023.
+uncertainties,"IEEE TII, 2023. [paper]()
 
 
 
 ### Continual Learning
 \[192\] B. Yang, H. Wang, L. Hu, H. Zhu, C.-T. Lam, and K. Fang,
 "Few-shot cross-domain based wifi sensing system for online learning in
-iot," IEEE Sensors Journal, 2023.
+iot," IEEE Sensors Journal, 2023. [paper]()
 
 \[235\] Y . Bai, Z. Wang, K. Zheng, X. Wang, and J. Wang, "Widrive:
 Adaptive wifi-based recognition of driver activity for real-time and
-safe takeover," inICDCS. IEEE, 2019, pp. 901--911.
+safe takeover," inICDCS. IEEE, 2019, pp. 901--911. [paper]()
 
 \[236\] E. Soltanaghaei, R. A. Sharma, Z. Wang, A. Chittilappilly, A.
 Luong, E. Giler, K. Hall, S. Elias, and A. Rowe, "Robust and practical
 wifi hu- man sensing using on-device learning with a domain adaptive
 model," inProceedings of the ACM International Conference on Systems for
 Energy-Efficient Buildings, Cities, and Transportation, 2020, pp. 150--
-159.
+159. [paper]()
 
 \[237\] S. Zhai, Z. Tang, P. Nurmi, D. Fang, X. Chen, and Z. Wang,
 "Rise: Robust wireless sensing using probabilistic and statistical
-assessments," inMobiCom, 2021, pp. 309--322.
+assessments," inMobiCom, 2021, pp. 309--322. [paper]()
 
 \[238\] Q. Fu, F. Wang, M. Zhu, H. Ding, J. Han, and T. X. Han, "Ccs:
 Con- tinuous learning for customized incremental wireless sensing
-services," arXiv preprint arXiv:2412.04821, 2024.
+services," arXiv preprint arXiv:2412.04821, 2024. [paper]()
 
 \[239\] T. Zhang, Q. Fu, H. Ding, G. Wang, and F. Wang, "Carec:
 Continual wireless action recognition with expansion-compression
-coordination," Sensors, 2025.
+coordination," Sensors, 2025. [paper]()
 
 \[240\] Y . Zhang, F. He, Y . Wang, D. Wu, and G. Yu, "Csi-based cross-
 scene human activity recognition with incremental learning,"Neural
-Computing and Applications, vol. 35, no. 17, pp. 12 415--12 432, 2023.
+Computing and Applications, vol. 35, no. 17, pp. 12 415--12 432, 2023. [paper]()
 
 > ### **Key Takeaways and Lessons Learned: Model Deployment**
 >
