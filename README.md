@@ -5,7 +5,7 @@
 **Sensing Dataset Platform:** https://sdp8.org/
 
 ![fig3](https://github.com/user-attachments/assets/95ff3b85-0965-433c-95dc-449c87cda4e1)
-Fig.3 Growth of research in Wi-Fi sensing generalizability: from a handful of studies between year of 2015 and 2018 to a surge of publications since 2019. We employed a linear regression to fit the growth trend. In the figure, the $R^2$ score indicates the correlation between the estimated results and the ground truth, where a value closer to 1 denotes a higher degree of model fitting. (We selected one representative paper per year based on the highest citation count, ensuring each choice employs a technical approach distinct from those featured in previous years.)
+Fig.3: Growth of research in Wi-Fi sensing generalizability: from a handful of studies between year of 2015 and 2018 to a surge of publications since 2019. We employed a linear regression to fit the growth trend. In the figure, the $R^2$ score indicates the correlation between the estimated results and the ground truth, where a value closer to 1 denotes a higher degree of model fitting. (We selected one representative paper per year based on the highest citation count, ensuring each choice employs a technical approach distinct from those featured in previous years.)
 
 
 
@@ -25,7 +25,7 @@ Fig.3 Growth of research in Wi-Fi sensing generalizability: from a handful of st
 ## :dog: Datasets 
 
 <img width="1781" height="746" alt="fig17" src="https://github.com/user-attachments/assets/aeb2a618-6cc8-4b60-a928-93cc69c80f66" />
-Fig. 17 Bubble chart of public Wi-Fi sensing datasets, where the bubble size indicates the number of samples and the vertical axis represents the number of classes. For visual clarity, datasets with extreme values, such as **SignFi** (296 classes) and **CSI-Bench** (over 1,000,000 samples), are excluded from the plot. Besides, datasets like **WiFiTAD**, **MM-Fi**, and **XRFv2**, which collect continuous sequences over time without clear per-sample annotations, are also not included due to the ambiguity in estimating their sample counts.
+Fig. 17: Bubble chart of public Wi-Fi sensing datasets, where the bubble size indicates the number of samples and the vertical axis represents the number of classes. For visual clarity, datasets with extreme values, such as **SignFi** (296 classes) and **CSI-Bench** (over 1,000,000 samples), are excluded from the plot. Besides, datasets like **WiFiTAD**, **MM-Fi**, and **XRFv2**, which collect continuous sequences over time without clear per-sample annotations, are also not included due to the ambiguity in estimating their sample counts.
 
 
 
@@ -138,6 +138,10 @@ Fig. 17 Bubble chart of public Wi-Fi sensing datasets, where the bubble size ind
 
 
 ## 🐼 Papers
+
+<img width="1027" height="1098" alt="image" src="https://github.com/user-attachments/assets/6c7b1fb6-0cb3-41da-9d76-e52896d1f720" />
+Fig 4: We systematically review and categorize nearly a decade of research on Wi-Fi sensing generalization, covering over 200 publications since 2015. Distinct from previous surveys, we organize the literature along a four-stage sensing pipeline—device deployment, signal preprocessing, feature learning, and model deployment.
+
 
 ## Stage 1: 🐘 Experimental Setup 
 
