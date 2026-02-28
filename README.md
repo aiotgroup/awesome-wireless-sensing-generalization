@@ -491,6 +491,7 @@ Table IV: Comparison of Pros, Cons, and Best-fit Scenarios of Feature Learning T
 #### Domain Alignment with Domain Discriminator
 
 ![fig7](https://github.com/user-attachments/assets/e65d5d71-4242-4899-a5f7-c99dd335bcb3)
+
 Fig 7: Domain alignment with domain discriminator or domain classifier. Both source and target data are mapped into a shared feature space. Through adversarial competition between an action classifier and a domain discriminator, the network learns to produce domain-agnostic representations that enhance cross-domain performance.
 
 
@@ -525,6 +526,9 @@ pp. 1--6.
 
 
 #### Domain Alignment with Domain Classifier
+
+
+
 \[124\] W. Jiang, C. Miao, F. Ma, S. Yao, Y . Wang, Y . Yuan, H. Xue, C.
 Song, X. Ma, D. Koutsonikolas, W. Xu, and L. Su, "Towards environment
 independent device free human activity recognition," inMobiCom, 2018,
@@ -590,6 +594,11 @@ adaptation," IoT-J, vol. 9, no. 12, pp. 9872--9888, 2022.
 
 
 #### Domain Alignment with Similarity Computing
+<img width="985" height="438" alt="fig8" src="https://github.com/user-attachments/assets/9c5dfa39-92a3-4afc-be25-28eaceddf517" />
+
+Fig 8: Maximum Mean Discrepancy (MMD) quantifies the similarity between two probability distributions by projecting data into a Reproducing Kernel Hilbert Space (RKHS) and computing the squared distance between their mean embeddings, encouraging the model to learn domain-invariant representations.
+
+
 \[137\] A. Gretton, K. Borgwardt, M. Rasch, B. Sch ¨olkopf, and A.
 Smola, "A kernel method for the two-sample-problem,"NeurIPS, vol. 19,
 2006.
@@ -666,6 +675,11 @@ location- independent human activity recognition using transfer learning
 based on cnn," inICC Workshops. IEEE, 2020, pp. 1--6.
 
 #### Domain Alignment with Generative Adversarial Networks
+![fig9](https://github.com/user-attachments/assets/b0168d62-9452-4713-8d24-943fb51cb3a0)
+
+Fig 9: Generative Adversarial Networks. Generator (G): The network responsible for creating synthetic data. Its primary objective is to learn the underlying distribution of the real data and produce samples that are indistinguishable from the ground truth to fool the discriminator. Discriminator (D): The network acting as a binary classifier. Its role is to evaluate both real data (x) and synthetic data (G(z)), outputting a probability that a given sample is real (from the actual dataset) rather than fake (produced by the generator). It provides the gradient signal that guides the generator to improve its realism.
+
+
 \[154\] J. Zhang, Z. Chen, C. Luo, B. Wei, S. S. Kanhere, and J. Li,
 "Metaganfi: Cross-domain unseen individual identification using wifi
 signals,"IMWUT, vol. 6, no. 3, pp. 1--21, 2022.
@@ -739,6 +753,13 @@ mechanism," in WCNC. IEEE, 2021, pp. 1--6.
 ### Metric Learning for Zero/Few-shot Learning
 
 #### Metric Learning with Triplet Loss
+
+<img width="984" height="424" alt="fig10" src="https://github.com/user-attachments/assets/e0e28a5d-daee-4c79-98fb-f3926da52d35" />
+
+Fig 10: Triplet loss aims to structure the feature space such that samples from the same class are mapped close together ($x_1^+, x_2^+$), while samples from different classes are pushed farther apart ($x^+, x^-$).
+
+
+
 \[167\] B. Wu, T. Jiang, J. Yu, X. Ding, S. Wu, and Y . Zhong,
 "Device-free human activity recognition with identity-based transfer
 mechanism," in WCNC. IEEE, 2021, pp. 1--6.
