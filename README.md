@@ -13,6 +13,11 @@
 }
 ```
 
+
+![fig3](https://github.com/user-attachments/assets/95ff3b85-0965-433c-95dc-449c87cda4e1)
+Fig.3: Growth of research in Wi-Fi sensing generalizability: from a handful of studies between year of 2015 and 2018 to a surge of publications since 2019. We employed a linear regression to fit the growth trend. In the figure, the $R^2$ score indicates the correlation between the estimated results and the ground truth, where a value closer to 1 denotes a higher degree of model fitting. (We selected one representative paper per year based on the highest citation count, ensuring each choice employs a technical approach distinct from those featured in previous years.)
+
+
 > ### **Highlight**
 >
 > While this survey focuses on Wi-Fi sensing, it is worth noting that many of the taxonomy and generalization challenges discussed herein are also applicable to millimeter-wave radar–based human sensing, which has gained increasing attention with the availability of commodity radars. Although mmWave radar relies on different signal representations, such as range–Doppler or range–angle maps rather than Wi-Fi CSI, it faces similar fundamental challenges related to device heterogeneity, human body diversity, and environment diversity.  
@@ -22,9 +27,6 @@
 > As a result, learning paradigms and deployment strategies aimed at improving generalization, such as multi-view sensing, large-scale in-the-wild datasets, domain adaptation, and continual learning, can be conceptually extended to millimeter-wave radar sensing, despite differences in signal modality.
 
 
-
-![fig3](https://github.com/user-attachments/assets/95ff3b85-0965-433c-95dc-449c87cda4e1)
-Fig.3: Growth of research in Wi-Fi sensing generalizability: from a handful of studies between year of 2015 and 2018 to a surge of publications since 2019. We employed a linear regression to fit the growth trend. In the figure, the $R^2$ score indicates the correlation between the estimated results and the ground truth, where a value closer to 1 denotes a higher degree of model fitting. (We selected one representative paper per year based on the highest citation count, ensuring each choice employs a technical approach distinct from those featured in previous years.)
 
 ---
 
