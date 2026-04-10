@@ -120,6 +120,8 @@ Table VII: Wi-Fi Datasets. The main results column mainly denotes the in-domain 
 
 1. Yuan, D., Zhang, X., Hou, W., Lyu, S., Yu, Y., Yu, L. J. T., ... & Wu, C. [OctoNet: A Large-Scale Multi-Modal Dataset for Human Activity Understanding Grounded in Motion-Captured 3D Pose Labels](https://aiot-lab.github.io/OctoNet/). In The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track. 2025. 
 
+2. Cheng, X., Huang, Z., Yu, Y., Bai, L., Sun, M., Han, Z., ... & Li, S. [SynthSoM: A synthetic intelligent multi-modal sensing-communication dataset for Synesthesia of Machines (SoM)](https://www.nature.com/articles/s41597-025-05065-x). Scientific Data, 12(1), 819. 2025
+   
 ---
 
 ## 🐼 Papers
